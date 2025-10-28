@@ -1,0 +1,12 @@
+0.7
+2020.2
+May  7 2023
+15:24:31
+C:/EENG 484/Libraries/scopeToHdmi_package.vhd,1759180475,vhdl,C:/EENG 484/lab2VGAtoHDMI/scopeFace.vhd;C:/EENG 484/lab2VGAtoHDMI/scopeToHdmi.vhdl;C:/EENG 484/lab2VGAtoHDMI/scopeToHdmi_tb.vhd;C:/EENG 484/lab2VGAtoHDMI/videoSignalGenerator.vhdl,,,scopetohdmi_package,,,,,,,,
+C:/EENG 484/lab2VGAtoHDMI/lab2VGAtoHDMI.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,1759180401,verilog,,C:/EENG 484/lab2VGAtoHDMI/lab2VGAtoHDMI.gen/sources_1/ip/hdmi_tx_0/hdmi_tx_0_sim_netlist.v,,clk_wiz_0,,,../../../../lab2VGAtoHDMI.ip_user_files/ipstatic,,,,,
+C:/EENG 484/lab2VGAtoHDMI/lab2VGAtoHDMI.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,1759180401,verilog,,C:/EENG 484/lab2VGAtoHDMI/lab2VGAtoHDMI.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,,clk_wiz_0_clk_wiz,,,../../../../lab2VGAtoHDMI.ip_user_files/ipstatic,,,,,
+C:/EENG 484/lab2VGAtoHDMI/lab2VGAtoHDMI.gen/sources_1/ip/hdmi_tx_0/hdmi_tx_0_sim_netlist.v,1759180189,verilog,,,,glbl;hdmi_tx_0;hdmi_tx_0_encode;hdmi_tx_0_encode__parameterized0;hdmi_tx_0_encode__parameterized1;hdmi_tx_0_hdmi_tx_v1_0;hdmi_tx_0_serdes_10_to_1;hdmi_tx_0_serdes_10_to_1_0;hdmi_tx_0_serdes_10_to_1_1;hdmi_tx_0_serdes_10_to_1_2;hdmi_tx_0_srldelay,,,../../../../lab2VGAtoHDMI.ip_user_files/ipstatic,,,,,
+C:/EENG 484/lab2VGAtoHDMI/scopeFace.vhd,1759173999,vhdl,,,,scopeface,,,,,,,,
+C:/EENG 484/lab2VGAtoHDMI/scopeToHdmi.vhdl,1759175738,vhdl,,,,scopetohdmi,,,,,,,,
+C:/EENG 484/lab2VGAtoHDMI/scopeToHdmi_tb.vhd,1758726557,vhdl,,,,scopetohdmi_tb,,,,,,,,
+C:/EENG 484/lab2VGAtoHDMI/videoSignalGenerator.vhdl,1758861407,vhdl,,,,videosignalgenerator,,,,,,,,

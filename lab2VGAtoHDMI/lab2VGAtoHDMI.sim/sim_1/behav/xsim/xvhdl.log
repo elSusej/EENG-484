@@ -1,0 +1,9 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EENG 484/Libraries/scopeToHdmi_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EENG 484/lab2VGAtoHDMI/scopeFace.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'scopeFace'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EENG 484/lab2VGAtoHDMI/scopeToHdmi.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'scopeToHdmi'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EENG 484/lab2VGAtoHDMI/videoSignalGenerator.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'videoSignalGenerator'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EENG 484/lab2VGAtoHDMI/scopeToHdmi_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'scopeToHdmi_tb'

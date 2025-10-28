@@ -1,0 +1,25 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/EENG 484/lab2VGAtoHDMI/lab2VGAtoHDMI.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/EENG 484/lab2VGAtoHDMI/lab2VGAtoHDMI.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/EENG 484/lab2VGAtoHDMI/lab2VGAtoHDMI.gen/sources_1/ip/hdmi_tx_0/hdmi_tx_0_sim_netlist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hdmi_tx_0
+INFO: [VRFC 10-311] analyzing module hdmi_tx_0_encode
+INFO: [VRFC 10-311] analyzing module hdmi_tx_0_encode__parameterized0
+INFO: [VRFC 10-311] analyzing module hdmi_tx_0_encode__parameterized1
+INFO: [VRFC 10-311] analyzing module hdmi_tx_0_hdmi_tx_v1_0
+INFO: [VRFC 10-311] analyzing module hdmi_tx_0_serdes_10_to_1
+INFO: [VRFC 10-311] analyzing module hdmi_tx_0_serdes_10_to_1_0
+INFO: [VRFC 10-311] analyzing module hdmi_tx_0_serdes_10_to_1_1
+INFO: [VRFC 10-311] analyzing module hdmi_tx_0_serdes_10_to_1_2
+INFO: [VRFC 10-311] analyzing module hdmi_tx_0_srldelay
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EENG 484/Libraries/scopeToHdmi_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EENG 484/lab2VGAtoHDMI/scopeFace.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'scopeFace'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EENG 484/lab2VGAtoHDMI/scopeToHdmi.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'scopeToHdmi'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EENG 484/lab2VGAtoHDMI/videoSignalGenerator.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'videoSignalGenerator'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EENG 484/lab2VGAtoHDMI/scopeToHdmi_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'scopeToHdmi_tb'

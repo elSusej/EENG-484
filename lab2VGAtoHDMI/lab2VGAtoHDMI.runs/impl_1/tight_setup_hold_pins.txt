@@ -1,0 +1,10 @@
++====================+===================+===================+
+| Launch Setup Clock | Launch Hold Clock | Pin               |
++====================+===================+===================+
+| sysClk             | sysClk            | sf/red_reg[6]/D   |
+| sysClk             | sysClk            | sf/green_reg[6]/D |
+| sysClk             | sysClk            | sf/blue_reg[6]/D  |
+| sysClk             | sysClk            | sf/green_reg[7]/D |
+| sysClk             | sysClk            | sf/red_reg[7]/D   |
+| sysClk             | sysClk            | sf/blue_reg[7]/D  |
++--------------------+-------------------+-------------------+

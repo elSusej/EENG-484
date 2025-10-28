@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../basicBuildingBlocksVhdl_package.vhd" \
+"../../../../lab1EnhancedPWM.srcs/sources_1/new/enhancedPwm.vhd" \
+"../../../../genericComparator.vhd" \
+"../../../../genericCounter.vhd" \
+"../../../../genericRegister.vhd" \
+"../../../../enhancedPwm_tb.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,24 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EENG 484/Libraries/signalAcquire_Package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EENG 484/lab3signalAcquire/an7606.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'an7606_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EENG 484/Libraries/basicBuildingBlocksVhdl_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EENG 484/Libraries/decoder3x8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'decode3x8'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EENG 484/Libraries/genericComparator.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'genericCompare'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EENG 484/Libraries/genericCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'genericCounter'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EENG 484/Libraries/genericMux8x1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'genericMux8x1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EENG 484/Libraries/genericRegister.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'genericRegister'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EENG 484/Libraries/regFile8x16.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'generic8RegisterFile'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EENG 484/lab3signalAcquire/signalAcquire.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'signalAcquire'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EENG 484/lab3signalAcquire/signalAcquireDatapath.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'signalAcquire_Datapath'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EENG 484/lab3signalAcquire/signalAcquireFsm.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'signalAcquire_Fsm'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EENG 484/lab3signalAcquire/signalAcquire_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'signalAcquire_tb'

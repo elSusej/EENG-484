@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../lab2VGAtoHDMI.ip_user_files/ipstatic" \
+"../../../../lab2VGAtoHDMI.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" \
+"../../../../lab2VGAtoHDMI.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v" \
+"../../../../lab2VGAtoHDMI.gen/sources_1/ip/hdmi_tx_0/hdmi_tx_0_sim_netlist.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
