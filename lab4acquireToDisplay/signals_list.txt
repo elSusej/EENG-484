@@ -1,0 +1,1714 @@
+/acquireToHDMI_tb/uut/datapath_inst/vc/inst/clk_out1
+/acquireToHDMI_tb/uut/datapath_inst/vc/inst/clk_out2
+/acquireToHDMI_tb/uut/datapath_inst/vc/inst/resetn
+/acquireToHDMI_tb/uut/datapath_inst/vc/inst/locked
+/acquireToHDMI_tb/uut/datapath_inst/vc/inst/clk_in1
+/acquireToHDMI_tb/uut/datapath_inst/vc/inst/clk_in1_clk_wiz_0
+/acquireToHDMI_tb/uut/datapath_inst/vc/inst/clk_in2_clk_wiz_0
+/acquireToHDMI_tb/uut/datapath_inst/vc/inst/clk_out1_clk_wiz_0
+/acquireToHDMI_tb/uut/datapath_inst/vc/inst/clk_out2_clk_wiz_0
+/acquireToHDMI_tb/uut/datapath_inst/vc/inst/clk_out3_clk_wiz_0
+/acquireToHDMI_tb/uut/datapath_inst/vc/inst/clk_out4_clk_wiz_0
+/acquireToHDMI_tb/uut/datapath_inst/vc/inst/clk_out5_clk_wiz_0
+/acquireToHDMI_tb/uut/datapath_inst/vc/inst/clk_out6_clk_wiz_0
+/acquireToHDMI_tb/uut/datapath_inst/vc/inst/clk_out7_clk_wiz_0
+/acquireToHDMI_tb/uut/datapath_inst/vc/inst/do_unused
+/acquireToHDMI_tb/uut/datapath_inst/vc/inst/drdy_unused
+/acquireToHDMI_tb/uut/datapath_inst/vc/inst/psdone_unused
+/acquireToHDMI_tb/uut/datapath_inst/vc/inst/locked_int
+/acquireToHDMI_tb/uut/datapath_inst/vc/inst/clkfbout_clk_wiz_0
+/acquireToHDMI_tb/uut/datapath_inst/vc/inst/clkfbout_buf_clk_wiz_0
+/acquireToHDMI_tb/uut/datapath_inst/vc/inst/clkfboutb_unused
+/acquireToHDMI_tb/uut/datapath_inst/vc/inst/clkout0b_unused
+/acquireToHDMI_tb/uut/datapath_inst/vc/inst/clkout1b_unused
+/acquireToHDMI_tb/uut/datapath_inst/vc/inst/clkout2_unused
+/acquireToHDMI_tb/uut/datapath_inst/vc/inst/clkout2b_unused
+/acquireToHDMI_tb/uut/datapath_inst/vc/inst/clkout3_unused
+/acquireToHDMI_tb/uut/datapath_inst/vc/inst/clkout3b_unused
+/acquireToHDMI_tb/uut/datapath_inst/vc/inst/clkout4_unused
+/acquireToHDMI_tb/uut/datapath_inst/vc/inst/clkout5_unused
+/acquireToHDMI_tb/uut/datapath_inst/vc/inst/clkout6_unused
+/acquireToHDMI_tb/uut/datapath_inst/vc/inst/clkfbstopped_unused
+/acquireToHDMI_tb/uut/datapath_inst/vc/inst/clkinstopped_unused
+/acquireToHDMI_tb/uut/datapath_inst/vc/inst/reset_high
+/acquireToHDMI_tb/uut/datapath_inst/vc/clk_out1
+/acquireToHDMI_tb/uut/datapath_inst/vc/clk_out2
+/acquireToHDMI_tb/uut/datapath_inst/vc/resetn
+/acquireToHDMI_tb/uut/datapath_inst/vc/locked
+/acquireToHDMI_tb/uut/datapath_inst/vc/clk_in1
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/srldly_0/clk
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/srldly_0/data_i
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/srldly_0/data_o
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/srldly_0/dlytaps
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/srldly_0/WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/srldly_0/TAPS
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/clkin
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/rstin
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/vdin
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/adin
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/c0
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/c1
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/vde
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/ade
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/dout
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/n1d
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/vdin_q
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/decision1
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/q_m
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/n1q_m
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/n0q_m
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/cnt
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/decision2
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/decision3
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/vde_q
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/vde_reg
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/ade_q
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/ade_reg
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/ade_reg_q
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/ade_reg_qq
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/c0_q
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/c1_q
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/c0_reg
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/c1_reg
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/adin_q
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/adin_reg
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/q_m_reg
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/digbnd
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/ade_vld
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/adin_vld
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/CHANNEL
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/MODE
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/VIDEOGBND
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/DILNDGBND
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/CTRLTOKEN0
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/CTRLTOKEN1
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/CTRLTOKEN2
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encb/CTRLTOKEN3
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/clkin
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/rstin
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/vdin
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/adin
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/c0
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/c1
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/vde
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/ade
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/dout
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/n1d
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/vdin_q
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/decision1
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/q_m
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/n1q_m
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/n0q_m
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/cnt
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/decision2
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/decision3
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/vde_q
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/vde_reg
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/ade_q
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/ade_reg
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/ade_reg_q
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/ade_reg_qq
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/c0_q
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/c1_q
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/c0_reg
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/c1_reg
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/adin_q
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/adin_reg
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/q_m_reg
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/digbnd
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/ade_vld
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/adin_vld
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/CHANNEL
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/MODE
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/VIDEOGBND
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/DILNDGBND
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/CTRLTOKEN0
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/CTRLTOKEN1
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/CTRLTOKEN2
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encg/CTRLTOKEN3
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/clkin
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/rstin
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/vdin
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/adin
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/c0
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/c1
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/vde
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/ade
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/dout
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/n1d
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/vdin_q
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/decision1
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/q_m
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/n1q_m
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/n0q_m
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/cnt
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/decision2
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/decision3
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/vde_q
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/vde_reg
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/ade_q
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/ade_reg
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/ade_reg_q
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/ade_reg_qq
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/c0_q
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/c1_q
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/c0_reg
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/c1_reg
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/adin_q
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/adin_reg
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/q_m_reg
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/digbnd
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/ade_vld
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/adin_vld
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/CHANNEL
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/MODE
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/VIDEOGBND
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/DILNDGBND
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/CTRLTOKEN0
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/CTRLTOKEN1
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/CTRLTOKEN2
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/encr/CTRLTOKEN3
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/serial_b/clk_x5
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/serial_b/reset
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/serial_b/clk
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/serial_b/datain
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/serial_b/iob_data_out
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/serial_b/slave_shift_out1
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/serial_b/slave_shift_out2
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/serial_g/clk_x5
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/serial_g/reset
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/serial_g/clk
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/serial_g/datain
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/serial_g/iob_data_out
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/serial_g/slave_shift_out1
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/serial_g/slave_shift_out2
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/serial_r/clk_x5
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/serial_r/reset
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/serial_r/clk
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/serial_r/datain
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/serial_r/iob_data_out
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/serial_r/slave_shift_out1
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/serial_r/slave_shift_out2
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/serial_clk/clk_x5
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/serial_clk/reset
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/serial_clk/clk
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/serial_clk/datain
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/serial_clk/iob_data_out
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/serial_clk/slave_shift_out1
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/serial_clk/slave_shift_out2
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/pix_clk
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/pix_clkx5
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/pix_clk_locked
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/rst
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/red
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/green
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/blue
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/hsync
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/vsync
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/vde
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/aux0_din
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/aux1_din
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/aux2_din
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/ade
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/TMDS_CLK_P
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/TMDS_CLK_N
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/TMDS_DATA_P
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/TMDS_DATA_N
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/rst_i
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/blue_din
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/green_din
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/red_din
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/tmds_red
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/tmds_green
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/tmds_blue
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/ctl0
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/ctl1
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/ctl2
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/ctl3
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/\genblk4.hdmi_ctl0 
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/\genblk4.hdmi_ctl1 
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/\genblk4.hdmi_ctl2 
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/\genblk4.hdmi_ctl3 
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/blue_dly
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/green_dly
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/red_dly
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/aux0_dly
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/aux1_dly
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/aux2_dly
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/hsync_dly
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/vsync_dly
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/vde_dly
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/ade_dly
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/tmdsclkint
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/TMDSINT
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/tmdsclk
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/MODE
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/C_RED_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/C_GREEN_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/C_BLUE_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/DILNDPREAM
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/VIDEOPREAM
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/NULLCONTRL
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/inst/SRL_DELAY
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/pix_clk
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/pix_clkx5
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/pix_clk_locked
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/rst
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/red
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/green
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/blue
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/hsync
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/vsync
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/vde
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/aux0_din
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/aux1_din
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/aux2_din
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/ade
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/TMDS_CLK_P
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/TMDS_CLK_N
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/TMDS_DATA_P
+/acquireToHDMI_tb/uut/datapath_inst/hdmi0_inst/TMDS_DATA_N
+/acquireToHDMI_tb/uut/datapath_inst/scopeFace_inst/clk
+/acquireToHDMI_tb/uut/datapath_inst/scopeFace_inst/resetn
+/acquireToHDMI_tb/uut/datapath_inst/scopeFace_inst/pixelHorz
+/acquireToHDMI_tb/uut/datapath_inst/scopeFace_inst/pixelVert
+/acquireToHDMI_tb/uut/datapath_inst/scopeFace_inst/triggerVolt
+/acquireToHDMI_tb/uut/datapath_inst/scopeFace_inst/triggerTime
+/acquireToHDMI_tb/uut/datapath_inst/scopeFace_inst/red
+/acquireToHDMI_tb/uut/datapath_inst/scopeFace_inst/green
+/acquireToHDMI_tb/uut/datapath_inst/scopeFace_inst/blue
+/acquireToHDMI_tb/uut/datapath_inst/scopeFace_inst/ch1
+/acquireToHDMI_tb/uut/datapath_inst/scopeFace_inst/ch1Enb
+/acquireToHDMI_tb/uut/datapath_inst/scopeFace_inst/ch2
+/acquireToHDMI_tb/uut/datapath_inst/scopeFace_inst/ch2Enb
+/acquireToHDMI_tb/uut/datapath_inst/scopeFace_inst/border
+/acquireToHDMI_tb/uut/datapath_inst/scopeFace_inst/grid
+/acquireToHDMI_tb/uut/datapath_inst/scopeFace_inst/ch1out
+/acquireToHDMI_tb/uut/datapath_inst/scopeFace_inst/ch2out
+/acquireToHDMI_tb/uut/datapath_inst/scopeFace_inst/trigger
+/acquireToHDMI_tb/uut/datapath_inst/videoSigGen_inst/clk
+/acquireToHDMI_tb/uut/datapath_inst/videoSigGen_inst/resetn
+/acquireToHDMI_tb/uut/datapath_inst/videoSigGen_inst/hs
+/acquireToHDMI_tb/uut/datapath_inst/videoSigGen_inst/vs
+/acquireToHDMI_tb/uut/datapath_inst/videoSigGen_inst/de
+/acquireToHDMI_tb/uut/datapath_inst/videoSigGen_inst/pixelHorz
+/acquireToHDMI_tb/uut/datapath_inst/videoSigGen_inst/pixelVert
+/acquireToHDMI_tb/uut/datapath_inst/videoSigGen_inst/h_cnt
+/acquireToHDMI_tb/uut/datapath_inst/videoSigGen_inst/v_cnt
+/acquireToHDMI_tb/uut/datapath_inst/videoSigGen_inst/h_activeArea
+/acquireToHDMI_tb/uut/datapath_inst/videoSigGen_inst/v_activeArea
+/acquireToHDMI_tb/uut/datapath_inst/longDelayCompare_inst/x
+/acquireToHDMI_tb/uut/datapath_inst/longDelayCompare_inst/y
+/acquireToHDMI_tb/uut/datapath_inst/longDelayCompare_inst/g
+/acquireToHDMI_tb/uut/datapath_inst/longDelayCompare_inst/l
+/acquireToHDMI_tb/uut/datapath_inst/longDelayCompare_inst/e
+/acquireToHDMI_tb/uut/datapath_inst/longDelayCompare_inst/tmp
+/acquireToHDMI_tb/uut/datapath_inst/longDelayCompare_inst/xSigned
+/acquireToHDMI_tb/uut/datapath_inst/longDelayCompare_inst/ySigned
+/acquireToHDMI_tb/uut/datapath_inst/longDelayCompare_inst/N
+/acquireToHDMI_tb/uut/datapath_inst/longDelayCounter_inst/clk
+/acquireToHDMI_tb/uut/datapath_inst/longDelayCounter_inst/resetn
+/acquireToHDMI_tb/uut/datapath_inst/longDelayCounter_inst/c
+/acquireToHDMI_tb/uut/datapath_inst/longDelayCounter_inst/d
+/acquireToHDMI_tb/uut/datapath_inst/longDelayCounter_inst/q
+/acquireToHDMI_tb/uut/datapath_inst/longDelayCounter_inst/tmp
+/acquireToHDMI_tb/uut/datapath_inst/longDelayCounter_inst/N
+/acquireToHDMI_tb/uut/datapath_inst/shortDelayCompare_inst/x
+/acquireToHDMI_tb/uut/datapath_inst/shortDelayCompare_inst/y
+/acquireToHDMI_tb/uut/datapath_inst/shortDelayCompare_inst/g
+/acquireToHDMI_tb/uut/datapath_inst/shortDelayCompare_inst/l
+/acquireToHDMI_tb/uut/datapath_inst/shortDelayCompare_inst/e
+/acquireToHDMI_tb/uut/datapath_inst/shortDelayCompare_inst/tmp
+/acquireToHDMI_tb/uut/datapath_inst/shortDelayCompare_inst/xSigned
+/acquireToHDMI_tb/uut/datapath_inst/shortDelayCompare_inst/ySigned
+/acquireToHDMI_tb/uut/datapath_inst/shortDelayCompare_inst/N
+/acquireToHDMI_tb/uut/datapath_inst/shortDelayCounter_inst/clk
+/acquireToHDMI_tb/uut/datapath_inst/shortDelayCounter_inst/resetn
+/acquireToHDMI_tb/uut/datapath_inst/shortDelayCounter_inst/c
+/acquireToHDMI_tb/uut/datapath_inst/shortDelayCounter_inst/d
+/acquireToHDMI_tb/uut/datapath_inst/shortDelayCounter_inst/q
+/acquireToHDMI_tb/uut/datapath_inst/shortDelayCounter_inst/tmp
+/acquireToHDMI_tb/uut/datapath_inst/shortDelayCounter_inst/N
+/acquireToHDMI_tb/uut/datapath_inst/sampleIntervalCompare_inst/x
+/acquireToHDMI_tb/uut/datapath_inst/sampleIntervalCompare_inst/y
+/acquireToHDMI_tb/uut/datapath_inst/sampleIntervalCompare_inst/g
+/acquireToHDMI_tb/uut/datapath_inst/sampleIntervalCompare_inst/l
+/acquireToHDMI_tb/uut/datapath_inst/sampleIntervalCompare_inst/e
+/acquireToHDMI_tb/uut/datapath_inst/sampleIntervalCompare_inst/tmp
+/acquireToHDMI_tb/uut/datapath_inst/sampleIntervalCompare_inst/xSigned
+/acquireToHDMI_tb/uut/datapath_inst/sampleIntervalCompare_inst/ySigned
+/acquireToHDMI_tb/uut/datapath_inst/sampleIntervalCompare_inst/N
+/acquireToHDMI_tb/uut/datapath_inst/sampleIntervalCounter_inst/clk
+/acquireToHDMI_tb/uut/datapath_inst/sampleIntervalCounter_inst/resetn
+/acquireToHDMI_tb/uut/datapath_inst/sampleIntervalCounter_inst/c
+/acquireToHDMI_tb/uut/datapath_inst/sampleIntervalCounter_inst/d
+/acquireToHDMI_tb/uut/datapath_inst/sampleIntervalCounter_inst/q
+/acquireToHDMI_tb/uut/datapath_inst/sampleIntervalCounter_inst/tmp
+/acquireToHDMI_tb/uut/datapath_inst/sampleIntervalCounter_inst/N
+/acquireToHDMI_tb/uut/datapath_inst/sampleIntervalMux_inst/y3
+/acquireToHDMI_tb/uut/datapath_inst/sampleIntervalMux_inst/y2
+/acquireToHDMI_tb/uut/datapath_inst/sampleIntervalMux_inst/y1
+/acquireToHDMI_tb/uut/datapath_inst/sampleIntervalMux_inst/y0
+/acquireToHDMI_tb/uut/datapath_inst/sampleIntervalMux_inst/s
+/acquireToHDMI_tb/uut/datapath_inst/sampleIntervalMux_inst/f
+/acquireToHDMI_tb/uut/datapath_inst/sampleIntervalMux_inst/N
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/CLK
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/RST
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/EN
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/REGCE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/DIN_I
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/DOUT
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/SBITERR_IN_I
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/DBITERR_IN_I
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/SBITERR
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/DBITERR
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/RDADDRECC_IN_I
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/ECCPIPECE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/RDADDRECC
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/out_regs
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/rdaddrecc_regs
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/sbiterr_regs
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/dbiterr_regs
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/init_str
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/init_val
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/en_i
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/regce_i
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/rst_i
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/DIN
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/RDADDRECC_IN
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/SBITERR_IN
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/DBITERR_IN
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/C_FAMILY
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/C_XDEVICEFAMILY
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/C_RST_TYPE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/C_HAS_RST
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/C_RSTRAM
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/C_RST_PRIORITY
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/C_INIT_VAL
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/C_HAS_EN
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/C_HAS_REGCE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/C_DATA_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/C_ADDRB_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/C_HAS_MEM_OUTPUT_REGS
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/C_USE_SOFTECC
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/C_USE_ECC
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/NUM_STAGES
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/C_EN_ECC_PIPE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/FLOP_DELAY
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/REG_STAGES
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/CLK
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/RST
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/EN
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/REGCE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/DIN_I
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/DOUT
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/SBITERR_IN_I
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/DBITERR_IN_I
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/SBITERR
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/DBITERR
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/RDADDRECC_IN_I
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/ECCPIPECE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/RDADDRECC
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/out_regs
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/rdaddrecc_regs
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/sbiterr_regs
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/dbiterr_regs
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/init_str
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/init_val
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/en_i
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/regce_i
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/rst_i
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/DIN
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/RDADDRECC_IN
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/SBITERR_IN
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/DBITERR_IN
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/C_FAMILY
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/C_XDEVICEFAMILY
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/C_RST_TYPE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/C_HAS_RST
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/C_RSTRAM
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/C_RST_PRIORITY
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/C_INIT_VAL
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/C_HAS_EN
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/C_HAS_REGCE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/C_DATA_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/C_ADDRB_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/C_HAS_MEM_OUTPUT_REGS
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/C_USE_SOFTECC
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/C_USE_ECC
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/NUM_STAGES
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/C_EN_ECC_PIPE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/FLOP_DELAY
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/REG_STAGES
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /has_softecc_output_reg_stage/CLK
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /has_softecc_output_reg_stage/DIN
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /has_softecc_output_reg_stage/DOUT
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /has_softecc_output_reg_stage/SBITERR_IN
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /has_softecc_output_reg_stage/DBITERR_IN
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /has_softecc_output_reg_stage/SBITERR
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /has_softecc_output_reg_stage/DBITERR
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /has_softecc_output_reg_stage/RDADDRECC_IN
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /has_softecc_output_reg_stage/RDADDRECC
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /has_softecc_output_reg_stage/dout_i
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /has_softecc_output_reg_stage/sbiterr_i
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /has_softecc_output_reg_stage/dbiterr_i
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /has_softecc_output_reg_stage/rdaddrecc_i
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /has_softecc_output_reg_stage/C_DATA_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /has_softecc_output_reg_stage/C_ADDRB_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /has_softecc_output_reg_stage/C_HAS_SOFTECC_OUTPUT_REGS_B
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /has_softecc_output_reg_stage/C_USE_SOFTECC
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /has_softecc_output_reg_stage/FLOP_DELAY
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /write_a/addr
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /write_a/byte_en
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /write_a/data
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /write_a/inj_sbiterr
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /write_a/inj_dbiterr
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /write_a/current_contents
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /write_a/address
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /write_a/i
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /write_b/addr
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /write_b/byte_en
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /write_b/data
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /write_b/current_contents
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /write_b/address
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /write_b/i
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /read_a/addr
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /read_a/reset
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /read_a/address
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /read_a/i
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /read_b/addr
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /read_b/reset
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /read_b/address
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /read_b/i
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /init_memory/i
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /init_memory/j
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /init_memory/addr_step
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /init_memory/status
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /init_memory/default_data
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /log2roundup/log2roundup
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /log2roundup/data_value
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /log2roundup/width
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /log2roundup/cnt
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /collision_check/collision_check
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /collision_check/addr_a
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /collision_check/iswrite_a
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /collision_check/addr_b
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /collision_check/iswrite_b
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /collision_check/c_aw_bw
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /collision_check/c_aw_br
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /collision_check/c_ar_bw
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /collision_check/scaled_addra_to_waddrb_width
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /collision_check/scaled_addrb_to_waddrb_width
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /collision_check/scaled_addra_to_waddra_width
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /collision_check/scaled_addrb_to_waddra_width
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /collision_check/scaled_addra_to_raddrb_width
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /collision_check/scaled_addrb_to_raddrb_width
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /collision_check/scaled_addra_to_raddra_width
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /collision_check/scaled_addrb_to_raddra_width
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /CLKA
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /RSTA
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /ENA
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /REGCEA
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /WEA
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /ADDRA
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /DINA
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /DOUTA
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /CLKB
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /RSTB
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /ENB
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /REGCEB
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /WEB
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /ADDRB
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /DINB
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /DOUTB
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /INJECTSBITERR
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /INJECTDBITERR
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /ECCPIPECE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /SLEEP
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /SBITERR
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /DBITERR
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /RDADDRECC
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /memory
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /temp_mem_array
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /doublebit_error
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /sbiterr_arr
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /dbiterr_arr
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /softecc_sbiterr_arr
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /softecc_dbiterr_arr
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /memory_out_a
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /memory_out_b
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /sbiterr_in
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /sbiterr_sdp
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /dbiterr_in
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /dbiterr_sdp
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /dout_i
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /dbiterr_i
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /sbiterr_i
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /rdaddrecc_i
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /rdaddrecc_in
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /rdaddrecc_sdp
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /inita_val
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /initb_val
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /is_collision
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /is_collision_a
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /is_collision_delay_a
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /is_collision_b
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /is_collision_delay_b
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /status
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /initfile
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /meminitfile
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /mif_data
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /mem_data
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /inita_str
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /initb_str
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /default_data_str
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /init_file_str
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /mem_init_file_str
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /cnt
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /write_addr_a_width
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /read_addr_a_width
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /write_addr_b_width
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /read_addr_b_width
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /ena_i
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /enb_i
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reseta_i
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /resetb_i
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /wea_i
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /web_i
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /rea_i
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reb_i
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /rsta_outp_stage
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /rstb_outp_stage
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /\async_coll.addra_delay 
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /\async_coll.wea_delay 
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /\async_coll.ena_delay 
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /\async_coll.addrb_delay 
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /\async_coll.web_delay 
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /\async_coll.enb_delay 
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_CORENAME
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_FAMILY
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_XDEVICEFAMILY
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_MEM_TYPE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_BYTE_SIZE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_USE_BRAM_BLOCK
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_ALGORITHM
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_PRIM_TYPE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_LOAD_INIT_FILE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_INIT_FILE_NAME
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_INIT_FILE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_USE_DEFAULT_DATA
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_DEFAULT_DATA
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_RST_TYPE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_HAS_RSTA
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_RST_PRIORITY_A
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_RSTRAM_A
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_INITA_VAL
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_HAS_ENA
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_HAS_REGCEA
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_USE_BYTE_WEA
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_WEA_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_WRITE_MODE_A
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_WRITE_WIDTH_A
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_READ_WIDTH_A
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_WRITE_DEPTH_A
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_READ_DEPTH_A
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_ADDRA_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_HAS_RSTB
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_RST_PRIORITY_B
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_RSTRAM_B
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_INITB_VAL
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_HAS_ENB
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_HAS_REGCEB
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_USE_BYTE_WEB
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_WEB_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_WRITE_MODE_B
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_WRITE_WIDTH_B
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_READ_WIDTH_B
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_WRITE_DEPTH_B
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_READ_DEPTH_B
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_ADDRB_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_HAS_MEM_OUTPUT_REGS_A
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_HAS_MEM_OUTPUT_REGS_B
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_HAS_MUX_OUTPUT_REGS_A
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_HAS_MUX_OUTPUT_REGS_B
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_HAS_SOFTECC_INPUT_REGS_A
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_HAS_SOFTECC_OUTPUT_REGS_B
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_MUX_PIPELINE_STAGES
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_USE_SOFTECC
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_USE_ECC
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_HAS_INJECTERR
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_SIM_COLLISION_CHECK
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_COMMON_CLK
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /FLOP_DELAY
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_DISABLE_WARN_BHV_COLL
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_EN_ECC_PIPE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_DISABLE_WARN_BHV_RANGE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /ADDRFILE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /COLLFILE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /ERRFILE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /COLL_DELAY
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /CHKBIT_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /MIN_WIDTH_A
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /MIN_WIDTH_B
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /MIN_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /MAX_DEPTH_A
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /MAX_DEPTH_B
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /MAX_DEPTH
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /WRITE_WIDTH_RATIO_A
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /READ_WIDTH_RATIO_A
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /WRITE_WIDTH_RATIO_B
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /READ_WIDTH_RATIO_B
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /WRITE_ADDR_A_DIV
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /READ_ADDR_A_DIV
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /WRITE_ADDR_B_DIV
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /READ_ADDR_B_DIV
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /BYTE_SIZE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_FAMILY_LOCALPARAM
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /SINGLE_PORT
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /IS_ROM
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /HAS_A_WRITE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /HAS_B_WRITE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /HAS_A_READ
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /HAS_B_READ
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /HAS_B_PORT
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /MUX_PIPELINE_STAGES_A
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /MUX_PIPELINE_STAGES_B
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /NUM_OUTPUT_STAGES_A
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /NUM_OUTPUT_STAGES_B
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\has_regs_fwd.axi_regs_inst /ACLK
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\has_regs_fwd.axi_regs_inst /ARESET
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\has_regs_fwd.axi_regs_inst /S_VALID
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\has_regs_fwd.axi_regs_inst /S_READY
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\has_regs_fwd.axi_regs_inst /S_PAYLOAD_DATA
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\has_regs_fwd.axi_regs_inst /M_VALID
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\has_regs_fwd.axi_regs_inst /M_READY
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\has_regs_fwd.axi_regs_inst /M_PAYLOAD_DATA
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\has_regs_fwd.axi_regs_inst /STORAGE_DATA
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\has_regs_fwd.axi_regs_inst /S_READY_I
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\has_regs_fwd.axi_regs_inst /M_VALID_I
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\has_regs_fwd.axi_regs_inst /ARESET_D
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/\has_regs_fwd.axi_regs_inst /C_DATA_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/clka
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/rsta
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/ena
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/regcea
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/wea
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/addra
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/dina
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/douta
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/clkb
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/rstb
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/enb
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/regceb
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/web
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/addrb
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/dinb
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/doutb
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/injectsbiterr
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/injectdbiterr
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/sbiterr
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/dbiterr
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/rdaddrecc
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/eccpipece
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/sleep
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/deepsleep
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/shutdown
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/rsta_busy
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/rstb_busy
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_aclk
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_aresetn
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_awid
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_awaddr
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_awlen
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_awsize
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_awburst
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_awvalid
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_awready
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_wdata
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_wstrb
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_wlast
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_wvalid
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_wready
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_bid
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_bresp
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_bvalid
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_bready
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_arid
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_araddr
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_arlen
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_arsize
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_arburst
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_arvalid
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_arready
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_rid
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_rdata
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_rresp
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_rlast
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_rvalid
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_rready
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_injectsbiterr
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_injectdbiterr
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_sbiterr
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_dbiterr
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_rdaddrecc
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/SBITERR
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/DBITERR
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/S_AXI_AWREADY
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/S_AXI_WREADY
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/S_AXI_BVALID
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/S_AXI_ARREADY
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/S_AXI_RLAST
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/S_AXI_RVALID
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/S_AXI_SBITERR
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/S_AXI_DBITERR
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/WEA
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/ADDRA
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/DINA
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/DOUTA
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/WEB
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/ADDRB
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/DINB
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/DOUTB
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/RDADDRECC
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/S_AXI_AWID
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/S_AXI_AWADDR
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/S_AXI_AWLEN
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/S_AXI_AWSIZE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/S_AXI_AWBURST
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/S_AXI_WDATA
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/S_AXI_WSTRB
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/S_AXI_BID
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/S_AXI_BRESP
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/S_AXI_ARID
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/S_AXI_ARADDR
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/S_AXI_ARLEN
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/S_AXI_ARSIZE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/S_AXI_ARBURST
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/S_AXI_RID
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/S_AXI_RDATA
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/S_AXI_RRESP
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/S_AXI_RDADDRECC
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/WEB_parameterized
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/ECCPIPECE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/SLEEP
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/RSTA_BUSY
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/RSTB_BUSY
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/CLKA
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/RSTA
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/ENA
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/REGCEA
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/CLKB
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/RSTB
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/ENB
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/REGCEB
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/INJECTSBITERR
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/INJECTDBITERR
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/S_ACLK
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/S_ARESETN
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/S_AXI_AWVALID
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/S_AXI_WLAST
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/S_AXI_WVALID
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/S_AXI_BREADY
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/S_AXI_ARVALID
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/S_AXI_RREADY
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/S_AXI_INJECTSBITERR
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/S_AXI_INJECTDBITERR
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/injectsbiterr_in
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/injectdbiterr_in
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/rsta_in
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/ena_in
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/regcea_in
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/wea_in
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/addra_in
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/dina_in
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_awaddr_out_c
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_araddr_out_c
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_wr_en_c
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_rd_en_c
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_aresetn_a_c
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_arlen_c
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_rid_c
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_rdata_c
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_rresp_c
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_rlast_c
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_rvalid_c
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_rready_c
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/regceb_c
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/s_axi_payload_c
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/m_axi_payload_c
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/RSTA_SHFT_REG
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/POR_A
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/RSTB_SHFT_REG
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/POR_B
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/ENA_dly
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/ENA_dly_D
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/ENB_dly
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/ENB_dly_D
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/RSTA_I_SAFE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/RSTB_I_SAFE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/ENA_I_SAFE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/ENB_I_SAFE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/ram_rstram_a_busy
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/ram_rstreg_a_busy
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/ram_rstram_b_busy
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/ram_rstreg_b_busy
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/ENA_dly_reg
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/ENB_dly_reg
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/ENA_dly_reg_D
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/ENB_dly_reg_D
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_CORENAME
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_FAMILY
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_XDEVICEFAMILY
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_ELABORATION_DIR
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_INTERFACE_TYPE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_USE_BRAM_BLOCK
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_CTRL_ECC_ALGO
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_ENABLE_32BIT_ADDRESS
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_AXI_TYPE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_AXI_SLAVE_TYPE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_HAS_AXI_ID
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_AXI_ID_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_MEM_TYPE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_BYTE_SIZE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_ALGORITHM
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_PRIM_TYPE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_LOAD_INIT_FILE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_INIT_FILE_NAME
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_INIT_FILE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_USE_DEFAULT_DATA
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_DEFAULT_DATA
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_HAS_RSTA
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_RST_PRIORITY_A
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_RSTRAM_A
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_INITA_VAL
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_HAS_ENA
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_HAS_REGCEA
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_USE_BYTE_WEA
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_WEA_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_WRITE_MODE_A
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_WRITE_WIDTH_A
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_READ_WIDTH_A
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_WRITE_DEPTH_A
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_READ_DEPTH_A
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_ADDRA_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_HAS_RSTB
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_RST_PRIORITY_B
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_RSTRAM_B
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_INITB_VAL
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_HAS_ENB
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_HAS_REGCEB
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_USE_BYTE_WEB
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_WEB_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_WRITE_MODE_B
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_WRITE_WIDTH_B
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_READ_WIDTH_B
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_WRITE_DEPTH_B
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_READ_DEPTH_B
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_ADDRB_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_HAS_MEM_OUTPUT_REGS_A
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_HAS_MEM_OUTPUT_REGS_B
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_HAS_MUX_OUTPUT_REGS_A
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_HAS_MUX_OUTPUT_REGS_B
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_HAS_SOFTECC_INPUT_REGS_A
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_HAS_SOFTECC_OUTPUT_REGS_B
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_MUX_PIPELINE_STAGES
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_USE_SOFTECC
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_READ_LATENCY_A
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_READ_LATENCY_B
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_USE_ECC
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_EN_ECC_PIPE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_HAS_INJECTERR
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_SIM_COLLISION_CHECK
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_COMMON_CLK
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_DISABLE_WARN_BHV_COLL
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_EN_SLEEP_PIN
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_USE_URAM
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_EN_RDADDRA_CHG
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_EN_RDADDRB_CHG
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_EN_DEEPSLEEP_PIN
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_EN_SHUTDOWN_PIN
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_EN_SAFETY_CKT
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_COUNT_36K_BRAM
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_COUNT_18K_BRAM
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_EST_POWER_SUMMARY
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_DISABLE_WARN_BHV_RANGE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/FLOP_DELAY
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_AXI_PAYLOAD
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/AXI_FULL_MEMORY_SLAVE
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_AXI_ADDR_WIDTH_MSB
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_AXI_ADDR_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/LOWER_BOUND_VAL
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_AXI_ADDR_WIDTH_LSB
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/inst/C_AXI_OS_WR
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/clka
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/ena
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/wea
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/addra
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/dina
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/clkb
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/enb
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/addrb
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAM_inst/doutb
+/acquireToHDMI_tb/uut/datapath_inst/dataStorageCounter_inst/clk
+/acquireToHDMI_tb/uut/datapath_inst/dataStorageCounter_inst/resetn
+/acquireToHDMI_tb/uut/datapath_inst/dataStorageCounter_inst/c
+/acquireToHDMI_tb/uut/datapath_inst/dataStorageCounter_inst/d
+/acquireToHDMI_tb/uut/datapath_inst/dataStorageCounter_inst/q
+/acquireToHDMI_tb/uut/datapath_inst/dataStorageCounter_inst/tmp
+/acquireToHDMI_tb/uut/datapath_inst/dataStorageCounter_inst/N
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAMCompare_inst/x
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAMCompare_inst/y
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAMCompare_inst/g
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAMCompare_inst/l
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAMCompare_inst/e
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAMCompare_inst/tmp
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAMCompare_inst/xSigned
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAMCompare_inst/ySigned
+/acquireToHDMI_tb/uut/datapath_inst/ch1BRAMCompare_inst/N
+/acquireToHDMI_tb/uut/datapath_inst/ch1dataToPixel_inst/data
+/acquireToHDMI_tb/uut/datapath_inst/ch1dataToPixel_inst/pixelHeight
+/acquireToHDMI_tb/uut/datapath_inst/ch1dataToPixel_inst/a_SIGNED16
+/acquireToHDMI_tb/uut/datapath_inst/ch1dataToPixel_inst/b_SIGNED16
+/acquireToHDMI_tb/uut/datapath_inst/ch1dataToPixel_inst/c_SIGNED16
+/acquireToHDMI_tb/uut/datapath_inst/ch1dataToPixel_inst/x_SIGNED32
+/acquireToHDMI_tb/uut/datapath_inst/ch1dataToPixel_inst/y_SIGNED32
+/acquireToHDMI_tb/uut/datapath_inst/ch1PixelCompare_inst/x
+/acquireToHDMI_tb/uut/datapath_inst/ch1PixelCompare_inst/y
+/acquireToHDMI_tb/uut/datapath_inst/ch1PixelCompare_inst/g
+/acquireToHDMI_tb/uut/datapath_inst/ch1PixelCompare_inst/l
+/acquireToHDMI_tb/uut/datapath_inst/ch1PixelCompare_inst/e
+/acquireToHDMI_tb/uut/datapath_inst/ch1PixelCompare_inst/tmp
+/acquireToHDMI_tb/uut/datapath_inst/ch1PixelCompare_inst/xSigned
+/acquireToHDMI_tb/uut/datapath_inst/ch1PixelCompare_inst/ySigned
+/acquireToHDMI_tb/uut/datapath_inst/ch1PixelCompare_inst/N
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/CLK
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/RST
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/EN
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/REGCE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/DIN_I
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/DOUT
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/SBITERR_IN_I
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/DBITERR_IN_I
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/SBITERR
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/DBITERR
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/RDADDRECC_IN_I
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/ECCPIPECE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/RDADDRECC
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/out_regs
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/rdaddrecc_regs
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/sbiterr_regs
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/dbiterr_regs
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/init_str
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/init_val
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/en_i
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/regce_i
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/rst_i
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/DIN
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/RDADDRECC_IN
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/SBITERR_IN
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/DBITERR_IN
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/C_FAMILY
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/C_XDEVICEFAMILY
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/C_RST_TYPE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/C_HAS_RST
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/C_RSTRAM
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/C_RST_PRIORITY
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/C_INIT_VAL
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/C_HAS_EN
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/C_HAS_REGCE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/C_DATA_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/C_ADDRB_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/C_HAS_MEM_OUTPUT_REGS
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/C_USE_SOFTECC
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/C_USE_ECC
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/NUM_STAGES
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/C_EN_ECC_PIPE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/FLOP_DELAY
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_a/REG_STAGES
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/CLK
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/RST
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/EN
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/REGCE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/DIN_I
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/DOUT
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/SBITERR_IN_I
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/DBITERR_IN_I
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/SBITERR
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/DBITERR
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/RDADDRECC_IN_I
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/ECCPIPECE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/RDADDRECC
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/out_regs
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/rdaddrecc_regs
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/sbiterr_regs
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/dbiterr_regs
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/init_str
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/init_val
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/en_i
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/regce_i
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/rst_i
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/DIN
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/RDADDRECC_IN
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/SBITERR_IN
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/DBITERR_IN
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/C_FAMILY
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/C_XDEVICEFAMILY
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/C_RST_TYPE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/C_HAS_RST
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/C_RSTRAM
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/C_RST_PRIORITY
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/C_INIT_VAL
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/C_HAS_EN
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/C_HAS_REGCE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/C_DATA_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/C_ADDRB_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/C_HAS_MEM_OUTPUT_REGS
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/C_USE_SOFTECC
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/C_USE_ECC
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/NUM_STAGES
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/C_EN_ECC_PIPE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/FLOP_DELAY
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reg_b/REG_STAGES
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /has_softecc_output_reg_stage/CLK
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /has_softecc_output_reg_stage/DIN
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /has_softecc_output_reg_stage/DOUT
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /has_softecc_output_reg_stage/SBITERR_IN
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /has_softecc_output_reg_stage/DBITERR_IN
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /has_softecc_output_reg_stage/SBITERR
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /has_softecc_output_reg_stage/DBITERR
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /has_softecc_output_reg_stage/RDADDRECC_IN
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /has_softecc_output_reg_stage/RDADDRECC
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /has_softecc_output_reg_stage/dout_i
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /has_softecc_output_reg_stage/sbiterr_i
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /has_softecc_output_reg_stage/dbiterr_i
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /has_softecc_output_reg_stage/rdaddrecc_i
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /has_softecc_output_reg_stage/C_DATA_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /has_softecc_output_reg_stage/C_ADDRB_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /has_softecc_output_reg_stage/C_HAS_SOFTECC_OUTPUT_REGS_B
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /has_softecc_output_reg_stage/C_USE_SOFTECC
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /has_softecc_output_reg_stage/FLOP_DELAY
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /write_a/addr
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /write_a/byte_en
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /write_a/data
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /write_a/inj_sbiterr
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /write_a/inj_dbiterr
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /write_a/current_contents
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /write_a/address
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /write_a/i
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /write_b/addr
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /write_b/byte_en
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /write_b/data
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /write_b/current_contents
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /write_b/address
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /write_b/i
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /read_a/addr
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /read_a/reset
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /read_a/address
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /read_a/i
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /read_b/addr
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /read_b/reset
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /read_b/address
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /read_b/i
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /init_memory/i
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /init_memory/j
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /init_memory/addr_step
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /init_memory/status
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /init_memory/default_data
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /log2roundup/log2roundup
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /log2roundup/data_value
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /log2roundup/width
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /log2roundup/cnt
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /collision_check/collision_check
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /collision_check/addr_a
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /collision_check/iswrite_a
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /collision_check/addr_b
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /collision_check/iswrite_b
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /collision_check/c_aw_bw
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /collision_check/c_aw_br
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /collision_check/c_ar_bw
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /collision_check/scaled_addra_to_waddrb_width
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /collision_check/scaled_addrb_to_waddrb_width
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /collision_check/scaled_addra_to_waddra_width
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /collision_check/scaled_addrb_to_waddra_width
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /collision_check/scaled_addra_to_raddrb_width
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /collision_check/scaled_addrb_to_raddrb_width
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /collision_check/scaled_addra_to_raddra_width
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /collision_check/scaled_addrb_to_raddra_width
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /CLKA
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /RSTA
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /ENA
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /REGCEA
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /WEA
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /ADDRA
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /DINA
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /DOUTA
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /CLKB
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /RSTB
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /ENB
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /REGCEB
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /WEB
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /ADDRB
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /DINB
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /DOUTB
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /INJECTSBITERR
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /INJECTDBITERR
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /ECCPIPECE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /SLEEP
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /SBITERR
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /DBITERR
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /RDADDRECC
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /memory
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /temp_mem_array
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /doublebit_error
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /sbiterr_arr
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /dbiterr_arr
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /softecc_sbiterr_arr
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /softecc_dbiterr_arr
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /memory_out_a
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /memory_out_b
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /sbiterr_in
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /sbiterr_sdp
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /dbiterr_in
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /dbiterr_sdp
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /dout_i
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /dbiterr_i
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /sbiterr_i
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /rdaddrecc_i
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /rdaddrecc_in
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /rdaddrecc_sdp
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /inita_val
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /initb_val
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /is_collision
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /is_collision_a
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /is_collision_delay_a
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /is_collision_b
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /is_collision_delay_b
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /status
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /initfile
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /meminitfile
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /mif_data
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /mem_data
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /inita_str
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /initb_str
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /default_data_str
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /init_file_str
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /mem_init_file_str
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /cnt
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /write_addr_a_width
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /read_addr_a_width
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /write_addr_b_width
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /read_addr_b_width
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /ena_i
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /enb_i
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reseta_i
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /resetb_i
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /wea_i
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /web_i
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /rea_i
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /reb_i
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /rsta_outp_stage
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /rstb_outp_stage
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /\async_coll.addra_delay 
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /\async_coll.wea_delay 
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /\async_coll.ena_delay 
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /\async_coll.addrb_delay 
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /\async_coll.web_delay 
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /\async_coll.enb_delay 
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_CORENAME
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_FAMILY
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_XDEVICEFAMILY
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_MEM_TYPE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_BYTE_SIZE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_USE_BRAM_BLOCK
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_ALGORITHM
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_PRIM_TYPE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_LOAD_INIT_FILE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_INIT_FILE_NAME
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_INIT_FILE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_USE_DEFAULT_DATA
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_DEFAULT_DATA
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_RST_TYPE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_HAS_RSTA
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_RST_PRIORITY_A
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_RSTRAM_A
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_INITA_VAL
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_HAS_ENA
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_HAS_REGCEA
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_USE_BYTE_WEA
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_WEA_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_WRITE_MODE_A
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_WRITE_WIDTH_A
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_READ_WIDTH_A
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_WRITE_DEPTH_A
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_READ_DEPTH_A
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_ADDRA_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_HAS_RSTB
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_RST_PRIORITY_B
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_RSTRAM_B
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_INITB_VAL
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_HAS_ENB
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_HAS_REGCEB
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_USE_BYTE_WEB
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_WEB_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_WRITE_MODE_B
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_WRITE_WIDTH_B
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_READ_WIDTH_B
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_WRITE_DEPTH_B
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_READ_DEPTH_B
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_ADDRB_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_HAS_MEM_OUTPUT_REGS_A
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_HAS_MEM_OUTPUT_REGS_B
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_HAS_MUX_OUTPUT_REGS_A
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_HAS_MUX_OUTPUT_REGS_B
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_HAS_SOFTECC_INPUT_REGS_A
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_HAS_SOFTECC_OUTPUT_REGS_B
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_MUX_PIPELINE_STAGES
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_USE_SOFTECC
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_USE_ECC
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_HAS_INJECTERR
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_SIM_COLLISION_CHECK
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_COMMON_CLK
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /FLOP_DELAY
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_DISABLE_WARN_BHV_COLL
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_EN_ECC_PIPE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_DISABLE_WARN_BHV_RANGE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /ADDRFILE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /COLLFILE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /ERRFILE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /COLL_DELAY
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /CHKBIT_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /MIN_WIDTH_A
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /MIN_WIDTH_B
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /MIN_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /MAX_DEPTH_A
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /MAX_DEPTH_B
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /MAX_DEPTH
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /WRITE_WIDTH_RATIO_A
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /READ_WIDTH_RATIO_A
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /WRITE_WIDTH_RATIO_B
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /READ_WIDTH_RATIO_B
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /WRITE_ADDR_A_DIV
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /READ_ADDR_A_DIV
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /WRITE_ADDR_B_DIV
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /READ_ADDR_B_DIV
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /BYTE_SIZE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /C_FAMILY_LOCALPARAM
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /SINGLE_PORT
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /IS_ROM
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /HAS_A_WRITE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /HAS_B_WRITE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /HAS_A_READ
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /HAS_B_READ
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /HAS_B_PORT
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /MUX_PIPELINE_STAGES_A
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /MUX_PIPELINE_STAGES_B
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /NUM_OUTPUT_STAGES_A
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\native_mem_module.blk_mem_gen_v8_4_6_inst /NUM_OUTPUT_STAGES_B
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\has_regs_fwd.axi_regs_inst /ACLK
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\has_regs_fwd.axi_regs_inst /ARESET
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\has_regs_fwd.axi_regs_inst /S_VALID
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\has_regs_fwd.axi_regs_inst /S_READY
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\has_regs_fwd.axi_regs_inst /S_PAYLOAD_DATA
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\has_regs_fwd.axi_regs_inst /M_VALID
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\has_regs_fwd.axi_regs_inst /M_READY
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\has_regs_fwd.axi_regs_inst /M_PAYLOAD_DATA
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\has_regs_fwd.axi_regs_inst /STORAGE_DATA
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\has_regs_fwd.axi_regs_inst /S_READY_I
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\has_regs_fwd.axi_regs_inst /M_VALID_I
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\has_regs_fwd.axi_regs_inst /ARESET_D
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/\has_regs_fwd.axi_regs_inst /C_DATA_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/clka
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/rsta
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/ena
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/regcea
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/wea
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/addra
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/dina
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/douta
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/clkb
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/rstb
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/enb
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/regceb
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/web
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/addrb
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/dinb
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/doutb
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/injectsbiterr
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/injectdbiterr
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/sbiterr
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/dbiterr
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/rdaddrecc
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/eccpipece
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/sleep
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/deepsleep
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/shutdown
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/rsta_busy
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/rstb_busy
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_aclk
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_aresetn
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_awid
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_awaddr
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_awlen
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_awsize
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_awburst
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_awvalid
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_awready
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_wdata
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_wstrb
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_wlast
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_wvalid
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_wready
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_bid
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_bresp
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_bvalid
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_bready
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_arid
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_araddr
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_arlen
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_arsize
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_arburst
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_arvalid
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_arready
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_rid
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_rdata
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_rresp
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_rlast
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_rvalid
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_rready
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_injectsbiterr
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_injectdbiterr
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_sbiterr
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_dbiterr
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_rdaddrecc
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/SBITERR
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/DBITERR
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/S_AXI_AWREADY
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/S_AXI_WREADY
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/S_AXI_BVALID
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/S_AXI_ARREADY
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/S_AXI_RLAST
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/S_AXI_RVALID
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/S_AXI_SBITERR
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/S_AXI_DBITERR
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/WEA
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/ADDRA
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/DINA
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/DOUTA
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/WEB
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/ADDRB
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/DINB
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/DOUTB
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/RDADDRECC
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/S_AXI_AWID
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/S_AXI_AWADDR
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/S_AXI_AWLEN
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/S_AXI_AWSIZE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/S_AXI_AWBURST
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/S_AXI_WDATA
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/S_AXI_WSTRB
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/S_AXI_BID
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/S_AXI_BRESP
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/S_AXI_ARID
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/S_AXI_ARADDR
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/S_AXI_ARLEN
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/S_AXI_ARSIZE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/S_AXI_ARBURST
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/S_AXI_RID
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/S_AXI_RDATA
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/S_AXI_RRESP
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/S_AXI_RDADDRECC
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/WEB_parameterized
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/ECCPIPECE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/SLEEP
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/RSTA_BUSY
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/RSTB_BUSY
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/CLKA
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/RSTA
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/ENA
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/REGCEA
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/CLKB
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/RSTB
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/ENB
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/REGCEB
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/INJECTSBITERR
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/INJECTDBITERR
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/S_ACLK
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/S_ARESETN
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/S_AXI_AWVALID
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/S_AXI_WLAST
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/S_AXI_WVALID
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/S_AXI_BREADY
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/S_AXI_ARVALID
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/S_AXI_RREADY
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/S_AXI_INJECTSBITERR
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/S_AXI_INJECTDBITERR
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/injectsbiterr_in
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/injectdbiterr_in
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/rsta_in
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/ena_in
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/regcea_in
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/wea_in
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/addra_in
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/dina_in
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_awaddr_out_c
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_araddr_out_c
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_wr_en_c
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_rd_en_c
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_aresetn_a_c
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_arlen_c
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_rid_c
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_rdata_c
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_rresp_c
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_rlast_c
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_rvalid_c
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_rready_c
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/regceb_c
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/s_axi_payload_c
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/m_axi_payload_c
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/RSTA_SHFT_REG
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/POR_A
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/RSTB_SHFT_REG
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/POR_B
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/ENA_dly
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/ENA_dly_D
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/ENB_dly
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/ENB_dly_D
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/RSTA_I_SAFE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/RSTB_I_SAFE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/ENA_I_SAFE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/ENB_I_SAFE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/ram_rstram_a_busy
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/ram_rstreg_a_busy
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/ram_rstram_b_busy
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/ram_rstreg_b_busy
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/ENA_dly_reg
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/ENB_dly_reg
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/ENA_dly_reg_D
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/ENB_dly_reg_D
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_CORENAME
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_FAMILY
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_XDEVICEFAMILY
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_ELABORATION_DIR
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_INTERFACE_TYPE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_USE_BRAM_BLOCK
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_CTRL_ECC_ALGO
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_ENABLE_32BIT_ADDRESS
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_AXI_TYPE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_AXI_SLAVE_TYPE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_HAS_AXI_ID
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_AXI_ID_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_MEM_TYPE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_BYTE_SIZE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_ALGORITHM
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_PRIM_TYPE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_LOAD_INIT_FILE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_INIT_FILE_NAME
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_INIT_FILE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_USE_DEFAULT_DATA
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_DEFAULT_DATA
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_HAS_RSTA
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_RST_PRIORITY_A
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_RSTRAM_A
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_INITA_VAL
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_HAS_ENA
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_HAS_REGCEA
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_USE_BYTE_WEA
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_WEA_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_WRITE_MODE_A
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_WRITE_WIDTH_A
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_READ_WIDTH_A
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_WRITE_DEPTH_A
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_READ_DEPTH_A
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_ADDRA_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_HAS_RSTB
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_RST_PRIORITY_B
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_RSTRAM_B
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_INITB_VAL
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_HAS_ENB
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_HAS_REGCEB
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_USE_BYTE_WEB
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_WEB_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_WRITE_MODE_B
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_WRITE_WIDTH_B
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_READ_WIDTH_B
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_WRITE_DEPTH_B
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_READ_DEPTH_B
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_ADDRB_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_HAS_MEM_OUTPUT_REGS_A
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_HAS_MEM_OUTPUT_REGS_B
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_HAS_MUX_OUTPUT_REGS_A
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_HAS_MUX_OUTPUT_REGS_B
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_HAS_SOFTECC_INPUT_REGS_A
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_HAS_SOFTECC_OUTPUT_REGS_B
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_MUX_PIPELINE_STAGES
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_USE_SOFTECC
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_READ_LATENCY_A
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_READ_LATENCY_B
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_USE_ECC
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_EN_ECC_PIPE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_HAS_INJECTERR
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_SIM_COLLISION_CHECK
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_COMMON_CLK
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_DISABLE_WARN_BHV_COLL
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_EN_SLEEP_PIN
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_USE_URAM
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_EN_RDADDRA_CHG
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_EN_RDADDRB_CHG
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_EN_DEEPSLEEP_PIN
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_EN_SHUTDOWN_PIN
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_EN_SAFETY_CKT
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_COUNT_36K_BRAM
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_COUNT_18K_BRAM
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_EST_POWER_SUMMARY
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_DISABLE_WARN_BHV_RANGE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/FLOP_DELAY
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_AXI_PAYLOAD
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/AXI_FULL_MEMORY_SLAVE
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_AXI_ADDR_WIDTH_MSB
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_AXI_ADDR_WIDTH
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/LOWER_BOUND_VAL
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_AXI_ADDR_WIDTH_LSB
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/inst/C_AXI_OS_WR
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/clka
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/ena
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/wea
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/addra
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/dina
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/clkb
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/enb
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/addrb
+/acquireToHDMI_tb/uut/datapath_inst/ch2BRAM_inst/doutb
+/acquireToHDMI_tb/uut/datapath_inst/ch2dataToPixel_inst/data
+/acquireToHDMI_tb/uut/datapath_inst/ch2dataToPixel_inst/pixelHeight
+/acquireToHDMI_tb/uut/datapath_inst/ch2dataToPixel_inst/a_SIGNED16
+/acquireToHDMI_tb/uut/datapath_inst/ch2dataToPixel_inst/b_SIGNED16
+/acquireToHDMI_tb/uut/datapath_inst/ch2dataToPixel_inst/c_SIGNED16
+/acquireToHDMI_tb/uut/datapath_inst/ch2dataToPixel_inst/x_SIGNED32
+/acquireToHDMI_tb/uut/datapath_inst/ch2dataToPixel_inst/y_SIGNED32
+/acquireToHDMI_tb/uut/datapath_inst/ch2PixelCompare_inst/x
+/acquireToHDMI_tb/uut/datapath_inst/ch2PixelCompare_inst/y
+/acquireToHDMI_tb/uut/datapath_inst/ch2PixelCompare_inst/g
+/acquireToHDMI_tb/uut/datapath_inst/ch2PixelCompare_inst/l
+/acquireToHDMI_tb/uut/datapath_inst/ch2PixelCompare_inst/e
+/acquireToHDMI_tb/uut/datapath_inst/ch2PixelCompare_inst/tmp
+/acquireToHDMI_tb/uut/datapath_inst/ch2PixelCompare_inst/xSigned
+/acquireToHDMI_tb/uut/datapath_inst/ch2PixelCompare_inst/ySigned
+/acquireToHDMI_tb/uut/datapath_inst/ch2PixelCompare_inst/N
+/acquireToHDMI_tb/uut/datapath_inst/triggerVoltToPixel_inst/data
+/acquireToHDMI_tb/uut/datapath_inst/triggerVoltToPixel_inst/pixelHeight
+/acquireToHDMI_tb/uut/datapath_inst/triggerVoltToPixel_inst/a_SIGNED16
+/acquireToHDMI_tb/uut/datapath_inst/triggerVoltToPixel_inst/b_SIGNED16
+/acquireToHDMI_tb/uut/datapath_inst/triggerVoltToPixel_inst/c_SIGNED16
+/acquireToHDMI_tb/uut/datapath_inst/triggerVoltToPixel_inst/x_SIGNED32
+/acquireToHDMI_tb/uut/datapath_inst/triggerVoltToPixel_inst/y_SIGNED32
+/acquireToHDMI_tb/uut/datapath_inst/ch1TriggerRegCurr_inst/clk
+/acquireToHDMI_tb/uut/datapath_inst/ch1TriggerRegCurr_inst/resetn
+/acquireToHDMI_tb/uut/datapath_inst/ch1TriggerRegCurr_inst/load
+/acquireToHDMI_tb/uut/datapath_inst/ch1TriggerRegCurr_inst/d
+/acquireToHDMI_tb/uut/datapath_inst/ch1TriggerRegCurr_inst/q
+/acquireToHDMI_tb/uut/datapath_inst/ch1TriggerRegCurr_inst/N
+/acquireToHDMI_tb/uut/datapath_inst/ch1TriggerCurrCompare_inst/x
+/acquireToHDMI_tb/uut/datapath_inst/ch1TriggerCurrCompare_inst/y
+/acquireToHDMI_tb/uut/datapath_inst/ch1TriggerCurrCompare_inst/g
+/acquireToHDMI_tb/uut/datapath_inst/ch1TriggerCurrCompare_inst/l
+/acquireToHDMI_tb/uut/datapath_inst/ch1TriggerCurrCompare_inst/e
+/acquireToHDMI_tb/uut/datapath_inst/ch1TriggerCurrCompare_inst/tmp
+/acquireToHDMI_tb/uut/datapath_inst/ch1TriggerCurrCompare_inst/xSigned
+/acquireToHDMI_tb/uut/datapath_inst/ch1TriggerCurrCompare_inst/ySigned
+/acquireToHDMI_tb/uut/datapath_inst/ch1TriggerCurrCompare_inst/N
+/acquireToHDMI_tb/uut/datapath_inst/ch1TriggerRegPrev_inst/clk
+/acquireToHDMI_tb/uut/datapath_inst/ch1TriggerRegPrev_inst/resetn
+/acquireToHDMI_tb/uut/datapath_inst/ch1TriggerRegPrev_inst/load
+/acquireToHDMI_tb/uut/datapath_inst/ch1TriggerRegPrev_inst/d
+/acquireToHDMI_tb/uut/datapath_inst/ch1TriggerRegPrev_inst/q
+/acquireToHDMI_tb/uut/datapath_inst/ch1TriggerRegPrev_inst/N
+/acquireToHDMI_tb/uut/datapath_inst/ch1TriggerPrevCompare_inst/x
+/acquireToHDMI_tb/uut/datapath_inst/ch1TriggerPrevCompare_inst/y
+/acquireToHDMI_tb/uut/datapath_inst/ch1TriggerPrevCompare_inst/g
+/acquireToHDMI_tb/uut/datapath_inst/ch1TriggerPrevCompare_inst/l
+/acquireToHDMI_tb/uut/datapath_inst/ch1TriggerPrevCompare_inst/e
+/acquireToHDMI_tb/uut/datapath_inst/ch1TriggerPrevCompare_inst/tmp
+/acquireToHDMI_tb/uut/datapath_inst/ch1TriggerPrevCompare_inst/xSigned
+/acquireToHDMI_tb/uut/datapath_inst/ch1TriggerPrevCompare_inst/ySigned
+/acquireToHDMI_tb/uut/datapath_inst/ch1TriggerPrevCompare_inst/N
+/acquireToHDMI_tb/uut/datapath_inst/ch2TriggerRegCurr_inst/clk
+/acquireToHDMI_tb/uut/datapath_inst/ch2TriggerRegCurr_inst/resetn
+/acquireToHDMI_tb/uut/datapath_inst/ch2TriggerRegCurr_inst/load
+/acquireToHDMI_tb/uut/datapath_inst/ch2TriggerRegCurr_inst/d
+/acquireToHDMI_tb/uut/datapath_inst/ch2TriggerRegCurr_inst/q
+/acquireToHDMI_tb/uut/datapath_inst/ch2TriggerRegCurr_inst/N
+/acquireToHDMI_tb/uut/datapath_inst/ch2TriggerCurrCompare_inst/x
+/acquireToHDMI_tb/uut/datapath_inst/ch2TriggerCurrCompare_inst/y
+/acquireToHDMI_tb/uut/datapath_inst/ch2TriggerCurrCompare_inst/g
+/acquireToHDMI_tb/uut/datapath_inst/ch2TriggerCurrCompare_inst/l
+/acquireToHDMI_tb/uut/datapath_inst/ch2TriggerCurrCompare_inst/e
+/acquireToHDMI_tb/uut/datapath_inst/ch2TriggerCurrCompare_inst/tmp
+/acquireToHDMI_tb/uut/datapath_inst/ch2TriggerCurrCompare_inst/xSigned
+/acquireToHDMI_tb/uut/datapath_inst/ch2TriggerCurrCompare_inst/ySigned
+/acquireToHDMI_tb/uut/datapath_inst/ch2TriggerCurrCompare_inst/N
+/acquireToHDMI_tb/uut/datapath_inst/ch2TriggerRegPrev_inst/clk
+/acquireToHDMI_tb/uut/datapath_inst/ch2TriggerRegPrev_inst/resetn
+/acquireToHDMI_tb/uut/datapath_inst/ch2TriggerRegPrev_inst/load
+/acquireToHDMI_tb/uut/datapath_inst/ch2TriggerRegPrev_inst/d
+/acquireToHDMI_tb/uut/datapath_inst/ch2TriggerRegPrev_inst/q
+/acquireToHDMI_tb/uut/datapath_inst/ch2TriggerRegPrev_inst/N
+/acquireToHDMI_tb/uut/datapath_inst/ch2TriggerPrevCompare_inst/x
+/acquireToHDMI_tb/uut/datapath_inst/ch2TriggerPrevCompare_inst/y
+/acquireToHDMI_tb/uut/datapath_inst/ch2TriggerPrevCompare_inst/g
+/acquireToHDMI_tb/uut/datapath_inst/ch2TriggerPrevCompare_inst/l
+/acquireToHDMI_tb/uut/datapath_inst/ch2TriggerPrevCompare_inst/e
+/acquireToHDMI_tb/uut/datapath_inst/ch2TriggerPrevCompare_inst/tmp
+/acquireToHDMI_tb/uut/datapath_inst/ch2TriggerPrevCompare_inst/xSigned
+/acquireToHDMI_tb/uut/datapath_inst/ch2TriggerPrevCompare_inst/ySigned
+/acquireToHDMI_tb/uut/datapath_inst/ch2TriggerPrevCompare_inst/N
+/acquireToHDMI_tb/uut/datapath_inst/clk
+/acquireToHDMI_tb/uut/datapath_inst/resetn
+/acquireToHDMI_tb/uut/datapath_inst/cw
+/acquireToHDMI_tb/uut/datapath_inst/sw
+/acquireToHDMI_tb/uut/datapath_inst/an7606data
+/acquireToHDMI_tb/uut/datapath_inst/triggerVolt16bitSigned
+/acquireToHDMI_tb/uut/datapath_inst/triggerTimePixel
+/acquireToHDMI_tb/uut/datapath_inst/ch1Data16bitSLV
+/acquireToHDMI_tb/uut/datapath_inst/ch2Data16bitSLV
+/acquireToHDMI_tb/uut/datapath_inst/tmdsDataP
+/acquireToHDMI_tb/uut/datapath_inst/tmdsDataN
+/acquireToHDMI_tb/uut/datapath_inst/tmdsClkP
+/acquireToHDMI_tb/uut/datapath_inst/tmdsClkN
+/acquireToHDMI_tb/uut/datapath_inst/hdmiOen
+/acquireToHDMI_tb/uut/datapath_inst/storeIntoBramFlag
+/acquireToHDMI_tb/uut/datapath_inst/triggerFlag
+/acquireToHDMI_tb/uut/datapath_inst/sampleFlag
+/acquireToHDMI_tb/uut/datapath_inst/BRAMfullFlag
+/acquireToHDMI_tb/uut/datapath_inst/ch1
+/acquireToHDMI_tb/uut/datapath_inst/ch2
+/acquireToHDMI_tb/uut/datapath_inst/longDelayCounter
+/acquireToHDMI_tb/uut/datapath_inst/shortDelayCounter
+/acquireToHDMI_tb/uut/datapath_inst/samplingIntervalCounter
+/acquireToHDMI_tb/uut/datapath_inst/samplingInterval
+/acquireToHDMI_tb/uut/datapath_inst/pixelHorz
+/acquireToHDMI_tb/uut/datapath_inst/pixelVert
+/acquireToHDMI_tb/uut/datapath_inst/ch1pixelHeight
+/acquireToHDMI_tb/uut/datapath_inst/ch2pixelHeight
+/acquireToHDMI_tb/uut/datapath_inst/ch1dout
+/acquireToHDMI_tb/uut/datapath_inst/ch2dout
+/acquireToHDMI_tb/uut/datapath_inst/videoClk
+/acquireToHDMI_tb/uut/datapath_inst/videoClk5x
+/acquireToHDMI_tb/uut/datapath_inst/clkLocked
+/acquireToHDMI_tb/uut/datapath_inst/hs
+/acquireToHDMI_tb/uut/datapath_inst/vs
+/acquireToHDMI_tb/uut/datapath_inst/de
+/acquireToHDMI_tb/uut/datapath_inst/reset
+/acquireToHDMI_tb/uut/datapath_inst/red
+/acquireToHDMI_tb/uut/datapath_inst/green
+/acquireToHDMI_tb/uut/datapath_inst/blue
+/acquireToHDMI_tb/uut/datapath_inst/trigVscr
+/acquireToHDMI_tb/uut/datapath_inst/wrAddr
+/acquireToHDMI_tb/uut/datapath_inst/addrB_sig
+/acquireToHDMI_tb/uut/datapath_inst/currDataCH1
+/acquireToHDMI_tb/uut/datapath_inst/prevDataCH1
+/acquireToHDMI_tb/uut/datapath_inst/currDataCH2
+/acquireToHDMI_tb/uut/datapath_inst/prevDataCH2
+/acquireToHDMI_tb/uut/datapath_inst/currOverCH1
+/acquireToHDMI_tb/uut/datapath_inst/prevUnderCH1
+/acquireToHDMI_tb/uut/datapath_inst/currOverCH2
+/acquireToHDMI_tb/uut/datapath_inst/prevUnderCH2

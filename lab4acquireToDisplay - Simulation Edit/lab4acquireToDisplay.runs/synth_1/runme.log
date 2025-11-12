@@ -1,0 +1,502 @@
+
+*** Running vivado
+    with args -log acquireToHDMI.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source acquireToHDMI.tcl
+
+
+ECHO is off.
+ECHO is off.
+
+****** Vivado v2023.1 (64-bit)
+  **** SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+  **** IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+  **** SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source acquireToHDMI.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 450.082 ; gain = 160.398
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/EENG 484/ipRepo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
+Command: read_checkpoint -auto_incremental -incremental {C:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.srcs/utils_1/imports/synth_1/acquireToHDMI.dcp}
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.srcs/utils_1/imports/synth_1/acquireToHDMI.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top acquireToHDMI -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 36568
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1278.480 ; gain = 409.477
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'acquireToHDMI' [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI.vhd:33]
+INFO: [Synth 8-3491] module 'acquireToHDMI_datapath' declared at 'C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_datapath.vhdl:29' bound to instance 'datapath_inst' of component 'acquireToHDMI_datapath' [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI.vhd:96]
+INFO: [Synth 8-638] synthesizing module 'acquireToHDMI_datapath' [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_datapath.vhdl:48]
+INFO: [Synth 8-3491] module 'clk_wiz_0' declared at 'C:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.runs/synth_1/.Xil/Vivado-33992-DESKTOP-BLLF4DN/realtime/clk_wiz_0_stub.vhdl:6' bound to instance 'vc' of component 'clk_wiz_0' [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_datapath.vhdl:108]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [C:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.runs/synth_1/.Xil/Vivado-33992-DESKTOP-BLLF4DN/realtime/clk_wiz_0_stub.vhdl:17]
+INFO: [Synth 8-3491] module 'hdmi_tx_0' declared at 'C:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.runs/synth_1/.Xil/Vivado-33992-DESKTOP-BLLF4DN/realtime/hdmi_tx_0_stub.vhdl:6' bound to instance 'hdmi0_inst' of component 'hdmi_tx_0' [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_datapath.vhdl:116]
+INFO: [Synth 8-638] synthesizing module 'hdmi_tx_0' [C:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.runs/synth_1/.Xil/Vivado-33992-DESKTOP-BLLF4DN/realtime/hdmi_tx_0_stub.vhdl:30]
+INFO: [Synth 8-3491] module 'scopeFace' declared at 'C:/EENG 484/lab4acquireToDisplay/scopeFace.vhd:12' bound to instance 'scopeFace_inst' of component 'scopeFace' [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_datapath.vhdl:137]
+INFO: [Synth 8-638] synthesizing module 'scopeFace' [C:/EENG 484/lab4acquireToDisplay/scopeFace.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'scopeFace' (0#1) [C:/EENG 484/lab4acquireToDisplay/scopeFace.vhd:29]
+INFO: [Synth 8-3491] module 'videoSignalGenerator' declared at 'C:/EENG 484/lab4acquireToDisplay/videoSignalGenerator.vhdl:9' bound to instance 'videoSigGen_inst' of component 'videoSignalGenerator' [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_datapath.vhdl:153]
+INFO: [Synth 8-638] synthesizing module 'videoSignalGenerator' [C:/EENG 484/lab4acquireToDisplay/videoSignalGenerator.vhdl:20]
+INFO: [Synth 8-256] done synthesizing module 'videoSignalGenerator' (0#1) [C:/EENG 484/lab4acquireToDisplay/videoSignalGenerator.vhdl:20]
+	Parameter N bound to: 24 - type: integer 
+INFO: [Synth 8-3491] module 'genericCompare' declared at 'C:/EENG 484/Libraries/genericComparator.vhd:11' bound to instance 'longDelayCompare_inst' of component 'genericCompare' [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_datapath.vhdl:163]
+INFO: [Synth 8-638] synthesizing module 'genericCompare' [C:/EENG 484/Libraries/genericComparator.vhd:17]
+	Parameter N bound to: 24 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'genericCompare' (0#1) [C:/EENG 484/Libraries/genericComparator.vhd:17]
+	Parameter N bound to: 24 - type: integer 
+INFO: [Synth 8-3491] module 'genericCounter' declared at 'C:/EENG 484/Libraries/genericCounter.vhd:15' bound to instance 'longDelayCounter_inst' of component 'genericCounter' [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_datapath.vhdl:171]
+INFO: [Synth 8-638] synthesizing module 'genericCounter' [C:/EENG 484/Libraries/genericCounter.vhd:23]
+	Parameter N bound to: 24 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'genericCounter' (0#1) [C:/EENG 484/Libraries/genericCounter.vhd:23]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'genericCompare' declared at 'C:/EENG 484/Libraries/genericComparator.vhd:11' bound to instance 'shortDelayCompare_inst' of component 'genericCompare' [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_datapath.vhdl:179]
+INFO: [Synth 8-638] synthesizing module 'genericCompare__parameterized1' [C:/EENG 484/Libraries/genericComparator.vhd:17]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'genericCompare__parameterized1' (0#1) [C:/EENG 484/Libraries/genericComparator.vhd:17]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'genericCounter' declared at 'C:/EENG 484/Libraries/genericCounter.vhd:15' bound to instance 'shortDelayCounter_inst' of component 'genericCounter' [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_datapath.vhdl:187]
+INFO: [Synth 8-638] synthesizing module 'genericCounter__parameterized1' [C:/EENG 484/Libraries/genericCounter.vhd:23]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'genericCounter__parameterized1' (0#1) [C:/EENG 484/Libraries/genericCounter.vhd:23]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'genericCompare' declared at 'C:/EENG 484/Libraries/genericComparator.vhd:11' bound to instance 'sampleIntervalCompare_inst' of component 'genericCompare' [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_datapath.vhdl:195]
+INFO: [Synth 8-638] synthesizing module 'genericCompare__parameterized3' [C:/EENG 484/Libraries/genericComparator.vhd:17]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'genericCompare__parameterized3' (0#1) [C:/EENG 484/Libraries/genericComparator.vhd:17]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'genericCounter' declared at 'C:/EENG 484/Libraries/genericCounter.vhd:15' bound to instance 'sampleIntervalCounter_inst' of component 'genericCounter' [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_datapath.vhdl:203]
+INFO: [Synth 8-638] synthesizing module 'genericCounter__parameterized3' [C:/EENG 484/Libraries/genericCounter.vhd:23]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'genericCounter__parameterized3' (0#1) [C:/EENG 484/Libraries/genericCounter.vhd:23]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'genericMux4x1' declared at 'C:/EENG 484/Libraries/genericMux4x1.vhd:34' bound to instance 'sampleIntervalMux_inst' of component 'genericMux4x1' [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_datapath.vhdl:211]
+INFO: [Synth 8-638] synthesizing module 'genericMux4x1' [C:/EENG 484/Libraries/genericMux4x1.vhd:41]
+	Parameter N bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'genericMux4x1' (0#1) [C:/EENG 484/Libraries/genericMux4x1.vhd:41]
+INFO: [Synth 8-3491] module 'blk_mem_gen_0' declared at 'C:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.runs/synth_1/.Xil/Vivado-33992-DESKTOP-BLLF4DN/realtime/blk_mem_gen_0_stub.vhdl:6' bound to instance 'ch1BRAM_inst' of component 'blk_mem_gen_0' [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_datapath.vhdl:221]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_0' [C:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.runs/synth_1/.Xil/Vivado-33992-DESKTOP-BLLF4DN/realtime/blk_mem_gen_0_stub.vhdl:21]
+	Parameter N bound to: 10 - type: integer 
+INFO: [Synth 8-3491] module 'genericCounter' declared at 'C:/EENG 484/Libraries/genericCounter.vhd:15' bound to instance 'dataStorageCounter_inst' of component 'genericCounter' [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_datapath.vhdl:233]
+INFO: [Synth 8-638] synthesizing module 'genericCounter__parameterized5' [C:/EENG 484/Libraries/genericCounter.vhd:23]
+	Parameter N bound to: 10 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'genericCounter__parameterized5' (0#1) [C:/EENG 484/Libraries/genericCounter.vhd:23]
+	Parameter N bound to: 10 - type: integer 
+INFO: [Synth 8-3491] module 'genericCompare' declared at 'C:/EENG 484/Libraries/genericComparator.vhd:11' bound to instance 'ch1BRAMCompare_inst' of component 'genericCompare' [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_datapath.vhdl:241]
+INFO: [Synth 8-638] synthesizing module 'genericCompare__parameterized5' [C:/EENG 484/Libraries/genericComparator.vhd:17]
+	Parameter N bound to: 10 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'genericCompare__parameterized5' (0#1) [C:/EENG 484/Libraries/genericComparator.vhd:17]
+INFO: [Synth 8-3491] module 'dataToPixel' declared at 'C:/EENG 484/Libraries/dataToPixel.vhd:38' bound to instance 'ch1dataToPixel_inst' of component 'dataToPixel' [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_datapath.vhdl:249]
+INFO: [Synth 8-638] synthesizing module 'dataToPixel' [C:/EENG 484/Libraries/dataToPixel.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'dataToPixel' (0#1) [C:/EENG 484/Libraries/dataToPixel.vhd:43]
+	Parameter N bound to: 11 - type: integer 
+INFO: [Synth 8-3491] module 'genericCompare' declared at 'C:/EENG 484/Libraries/genericComparator.vhd:11' bound to instance 'ch1PixelCompare_inst' of component 'genericCompare' [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_datapath.vhdl:253]
+INFO: [Synth 8-638] synthesizing module 'genericCompare__parameterized7' [C:/EENG 484/Libraries/genericComparator.vhd:17]
+	Parameter N bound to: 11 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'genericCompare__parameterized7' (0#1) [C:/EENG 484/Libraries/genericComparator.vhd:17]
+INFO: [Synth 8-3491] module 'blk_mem_gen_0' declared at 'C:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.runs/synth_1/.Xil/Vivado-33992-DESKTOP-BLLF4DN/realtime/blk_mem_gen_0_stub.vhdl:6' bound to instance 'ch2BRAM_inst' of component 'blk_mem_gen_0' [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_datapath.vhdl:261]
+INFO: [Synth 8-3491] module 'dataToPixel' declared at 'C:/EENG 484/Libraries/dataToPixel.vhd:38' bound to instance 'ch2dataToPixel_inst' of component 'dataToPixel' [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_datapath.vhdl:273]
+	Parameter N bound to: 11 - type: integer 
+INFO: [Synth 8-3491] module 'genericCompare' declared at 'C:/EENG 484/Libraries/genericComparator.vhd:11' bound to instance 'ch2PixelCompare_inst' of component 'genericCompare' [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_datapath.vhdl:277]
+INFO: [Synth 8-3491] module 'dataToPixel' declared at 'C:/EENG 484/Libraries/dataToPixel.vhd:38' bound to instance 'triggerVoltToPixel_inst' of component 'dataToPixel' [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_datapath.vhdl:285]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'genericRegister' declared at 'C:/EENG 484/Libraries/genericRegister.vhd:11' bound to instance 'ch1TriggerRegCurr_inst' of component 'genericRegister' [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_datapath.vhdl:290]
+INFO: [Synth 8-638] synthesizing module 'genericRegister' [C:/EENG 484/Libraries/genericRegister.vhd:18]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'genericRegister' (0#1) [C:/EENG 484/Libraries/genericRegister.vhd:18]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'genericCompare' declared at 'C:/EENG 484/Libraries/genericComparator.vhd:11' bound to instance 'ch1TriggerCurrCompare_inst' of component 'genericCompare' [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_datapath.vhdl:298]
+INFO: [Synth 8-638] synthesizing module 'genericCompare__parameterized9' [C:/EENG 484/Libraries/genericComparator.vhd:17]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'genericCompare__parameterized9' (0#1) [C:/EENG 484/Libraries/genericComparator.vhd:17]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'genericRegister' declared at 'C:/EENG 484/Libraries/genericRegister.vhd:11' bound to instance 'ch1TriggerRegPrev_inst' of component 'genericRegister' [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_datapath.vhdl:306]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'genericCompare' declared at 'C:/EENG 484/Libraries/genericComparator.vhd:11' bound to instance 'ch1TriggerPrevCompare_inst' of component 'genericCompare' [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_datapath.vhdl:314]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'genericRegister' declared at 'C:/EENG 484/Libraries/genericRegister.vhd:11' bound to instance 'ch2TriggerRegCurr_inst' of component 'genericRegister' [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_datapath.vhdl:322]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'genericCompare' declared at 'C:/EENG 484/Libraries/genericComparator.vhd:11' bound to instance 'ch2TriggerCurrCompare_inst' of component 'genericCompare' [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_datapath.vhdl:330]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'genericRegister' declared at 'C:/EENG 484/Libraries/genericRegister.vhd:11' bound to instance 'ch2TriggerRegPrev_inst' of component 'genericRegister' [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_datapath.vhdl:338]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'genericCompare' declared at 'C:/EENG 484/Libraries/genericComparator.vhd:11' bound to instance 'ch2TriggerPrevCompare_inst' of component 'genericCompare' [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_datapath.vhdl:346]
+INFO: [Synth 8-256] done synthesizing module 'acquireToHDMI_datapath' (0#1) [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_datapath.vhdl:48]
+INFO: [Synth 8-3491] module 'acquireToHDMI_fsm' declared at 'C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_fsm.vhdl:26' bound to instance 'control_inst' of component 'acquireToHDMI_fsm' [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI.vhd:114]
+INFO: [Synth 8-638] synthesizing module 'acquireToHDMI_fsm' [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_fsm.vhdl:33]
+INFO: [Synth 8-256] done synthesizing module 'acquireToHDMI_fsm' (0#1) [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_fsm.vhdl:33]
+INFO: [Synth 8-256] done synthesizing module 'acquireToHDMI' (0#1) [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI.vhd:33]
+WARNING: [Synth 8-3917] design acquireToHDMI has port an7606od[2] driven by constant 0
+WARNING: [Synth 8-3917] design acquireToHDMI has port an7606od[1] driven by constant 0
+WARNING: [Synth 8-3917] design acquireToHDMI has port an7606od[0] driven by constant 0
+WARNING: [Synth 8-7129] Port sw[3] in module acquireToHDMI_fsm is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ch1Enb in module scopeFace is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ch2Enb in module scopeFace is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1380.625 ; gain = 511.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1380.625 ; gain = 511.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1380.625 ; gain = 511.621
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1380.625 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'datapath_inst/ch1BRAM_inst'
+Finished Parsing XDC File [c:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'datapath_inst/ch1BRAM_inst'
+Parsing XDC File [c:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'datapath_inst/ch2BRAM_inst'
+Finished Parsing XDC File [c:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'datapath_inst/ch2BRAM_inst'
+Parsing XDC File [c:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'datapath_inst/vc'
+Finished Parsing XDC File [c:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'datapath_inst/vc'
+Parsing XDC File [c:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/hdmi_tx_0_1/hdmi_tx_0/hdmi_tx_0_in_context.xdc] for cell 'datapath_inst/hdmi0_inst'
+Finished Parsing XDC File [c:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/hdmi_tx_0_1/hdmi_tx_0/hdmi_tx_0_in_context.xdc] for cell 'datapath_inst/hdmi0_inst'
+Parsing XDC File [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI.xdc]
+WARNING: [Constraints 18-619] A clock with name 'clk' already exists, overwriting the previous clock with the same name. [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI.xdc:3]
+Finished Parsing XDC File [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/EENG 484/lab4acquireToDisplay/acquireToHDMI.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/acquireToHDMI_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/acquireToHDMI_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1483.820 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1483.820 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'datapath_inst/ch1BRAM_inst' at clock pin 'clkb' is different from the actual clock period '13.474', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'datapath_inst/ch2BRAM_inst' at clock pin 'clkb' is different from the actual clock period '13.474', this can lead to different synthesis results.
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1483.820 ; gain = 614.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1483.820 ; gain = 614.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk. (constraint file  {c:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc}, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk. (constraint file  {c:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc}, line 5).
+Applied set_property IO_BUFFER_TYPE = NONE for tmdsClkN. (constraint file  {c:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/hdmi_tx_0_1/hdmi_tx_0/hdmi_tx_0_in_context.xdc}, line 1).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for tmdsClkN. (constraint file  {c:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/hdmi_tx_0_1/hdmi_tx_0/hdmi_tx_0_in_context.xdc}, line 2).
+Applied set_property IO_BUFFER_TYPE = NONE for tmdsClkP. (constraint file  {c:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/hdmi_tx_0_1/hdmi_tx_0/hdmi_tx_0_in_context.xdc}, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for tmdsClkP. (constraint file  {c:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/hdmi_tx_0_1/hdmi_tx_0/hdmi_tx_0_in_context.xdc}, line 4).
+Applied set_property IO_BUFFER_TYPE = NONE for tmdsDataN[0]. (constraint file  {c:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/hdmi_tx_0_1/hdmi_tx_0/hdmi_tx_0_in_context.xdc}, line 5).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for tmdsDataN[0]. (constraint file  {c:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/hdmi_tx_0_1/hdmi_tx_0/hdmi_tx_0_in_context.xdc}, line 6).
+Applied set_property IO_BUFFER_TYPE = NONE for tmdsDataN[1]. (constraint file  {c:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/hdmi_tx_0_1/hdmi_tx_0/hdmi_tx_0_in_context.xdc}, line 7).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for tmdsDataN[1]. (constraint file  {c:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/hdmi_tx_0_1/hdmi_tx_0/hdmi_tx_0_in_context.xdc}, line 8).
+Applied set_property IO_BUFFER_TYPE = NONE for tmdsDataN[2]. (constraint file  {c:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/hdmi_tx_0_1/hdmi_tx_0/hdmi_tx_0_in_context.xdc}, line 9).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for tmdsDataN[2]. (constraint file  {c:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/hdmi_tx_0_1/hdmi_tx_0/hdmi_tx_0_in_context.xdc}, line 10).
+Applied set_property IO_BUFFER_TYPE = NONE for tmdsDataP[0]. (constraint file  {c:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/hdmi_tx_0_1/hdmi_tx_0/hdmi_tx_0_in_context.xdc}, line 11).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for tmdsDataP[0]. (constraint file  {c:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/hdmi_tx_0_1/hdmi_tx_0/hdmi_tx_0_in_context.xdc}, line 12).
+Applied set_property IO_BUFFER_TYPE = NONE for tmdsDataP[1]. (constraint file  {c:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/hdmi_tx_0_1/hdmi_tx_0/hdmi_tx_0_in_context.xdc}, line 13).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for tmdsDataP[1]. (constraint file  {c:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/hdmi_tx_0_1/hdmi_tx_0/hdmi_tx_0_in_context.xdc}, line 14).
+Applied set_property IO_BUFFER_TYPE = NONE for tmdsDataP[2]. (constraint file  {c:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/hdmi_tx_0_1/hdmi_tx_0/hdmi_tx_0_in_context.xdc}, line 15).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for tmdsDataP[2]. (constraint file  {c:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/hdmi_tx_0_1/hdmi_tx_0/hdmi_tx_0_in_context.xdc}, line 16).
+Applied set_property KEEP_HIERARCHY = SOFT for datapath_inst/ch1BRAM_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for datapath_inst/ch2BRAM_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for datapath_inst/vc. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for datapath_inst/hdmi0_inst. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1483.820 ; gain = 614.816
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'acquireToHDMI_fsm'
+WARNING: [Synth 8-327] inferring latch for variable 'f_reg' [C:/EENG 484/Libraries/genericMux4x1.vhd:43]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+             reset_state |                            00000 |                            00000
+        long_delay_state |                            00001 |                            00001
+      reset_ad7606_state |                            00010 |                            00010
+       wait_forced_state |                            00011 |                            00011
+    set_store_flag_state |                            00100 |                            00100
+  begin_conversion_state |                            00101 |                            00110
+     assert_convst_state |                            00110 |                            00111
+             busy0_state |                            00111 |                            01000
+             busy1_state |                            01000 |                            01001
+      read_ch1_low_state |                            01001 |                            01010
+    write_ch1_bram_state |                            01010 |                            01100
+ write_ch1_trigger_state |                            01011 |                            01011
+     read_ch1_high_state |                            01100 |                            01101
+       reset_short_state |                            01101 |                            01110
+      read_ch2_low_state |                            01110 |                            01111
+    write_ch2_bram_state |                            01111 |                            10001
+ write_ch2_trigger_state |                            10000 |                            10000
+     read_ch2_high_state |                            10001 |                            10010
+wait_end_sample_interval_state |                            10010 |                            10011
+  clear_store_flag_state |                            10011 |                            00101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'acquireToHDMI_fsm'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1483.820 ; gain = 614.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input   24 Bit       Adders := 1     
+	   3 Input   12 Bit       Adders := 8     
+	   2 Input   11 Bit       Adders := 15    
+	   2 Input   10 Bit       Adders := 2     
+	   2 Input    8 Bit       Adders := 1     
++---XORs : 
+	   2 Input      2 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               24 Bit    Registers := 1     
+	               16 Bit    Registers := 4     
+	               11 Bit    Registers := 4     
+	               10 Bit    Registers := 1     
+	                8 Bit    Registers := 4     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   4 Input   32 Bit        Muxes := 2     
+	   4 Input   24 Bit        Muxes := 1     
+	  20 Input   22 Bit        Muxes := 1     
+	   4 Input   10 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 6     
+	   4 Input    8 Bit        Muxes := 1     
+	  28 Input    5 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 10    
+	   2 Input    2 Bit        Muxes := 10    
+	   2 Input    1 Bit        Muxes := 11    
+	   4 Input    1 Bit        Muxes := 4     
+	  20 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+DSP Report: Generating DSP ch1dataToPixel_inst/x_SIGNED32, operation Mode is: A*(B:0x3fdb2).
+DSP Report: operator ch1dataToPixel_inst/x_SIGNED32 is absorbed into DSP ch1dataToPixel_inst/x_SIGNED32.
+DSP Report: Generating DSP ch2dataToPixel_inst/x_SIGNED32, operation Mode is: A*(B:0x3fdb2).
+DSP Report: operator ch2dataToPixel_inst/x_SIGNED32 is absorbed into DSP ch2dataToPixel_inst/x_SIGNED32.
+DSP Report: Generating DSP triggerVoltToPixel_inst/x_SIGNED32, operation Mode is: A*(B:0x3fdb2).
+DSP Report: operator triggerVoltToPixel_inst/x_SIGNED32 is absorbed into DSP triggerVoltToPixel_inst/x_SIGNED32.
+WARNING: [Synth 8-3917] design acquireToHDMI has port an7606od[2] driven by constant 0
+WARNING: [Synth 8-3917] design acquireToHDMI has port an7606od[1] driven by constant 0
+WARNING: [Synth 8-3917] design acquireToHDMI has port an7606od[0] driven by constant 0
+WARNING: [Synth 8-7129] Port ch1Enb in module scopeFace is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ch2Enb in module scopeFace is either unconnected or has no load
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/sampleIntervalMux_inst/f_reg[31]) is unused and will be removed from module acquireToHDMI.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/sampleIntervalMux_inst/f_reg[30]) is unused and will be removed from module acquireToHDMI.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/sampleIntervalMux_inst/f_reg[29]) is unused and will be removed from module acquireToHDMI.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/sampleIntervalMux_inst/f_reg[28]) is unused and will be removed from module acquireToHDMI.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/sampleIntervalMux_inst/f_reg[27]) is unused and will be removed from module acquireToHDMI.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/sampleIntervalMux_inst/f_reg[26]) is unused and will be removed from module acquireToHDMI.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/sampleIntervalMux_inst/f_reg[25]) is unused and will be removed from module acquireToHDMI.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/sampleIntervalMux_inst/f_reg[24]) is unused and will be removed from module acquireToHDMI.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/sampleIntervalMux_inst/f_reg[23]) is unused and will be removed from module acquireToHDMI.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/sampleIntervalMux_inst/f_reg[22]) is unused and will be removed from module acquireToHDMI.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/sampleIntervalMux_inst/f_reg[21]) is unused and will be removed from module acquireToHDMI.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/sampleIntervalMux_inst/f_reg[20]) is unused and will be removed from module acquireToHDMI.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/sampleIntervalMux_inst/f_reg[19]) is unused and will be removed from module acquireToHDMI.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/sampleIntervalMux_inst/f_reg[18]) is unused and will be removed from module acquireToHDMI.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/sampleIntervalMux_inst/f_reg[17]) is unused and will be removed from module acquireToHDMI.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/sampleIntervalMux_inst/f_reg[16]) is unused and will be removed from module acquireToHDMI.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/sampleIntervalMux_inst/f_reg[15]) is unused and will be removed from module acquireToHDMI.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/sampleIntervalMux_inst/f_reg[14]) is unused and will be removed from module acquireToHDMI.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/sampleIntervalMux_inst/f_reg[13]) is unused and will be removed from module acquireToHDMI.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/sampleIntervalMux_inst/f_reg[12]) is unused and will be removed from module acquireToHDMI.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/sampleIntervalMux_inst/f_reg[11]) is unused and will be removed from module acquireToHDMI.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/sampleIntervalMux_inst/f_reg[10]) is unused and will be removed from module acquireToHDMI.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/sampleIntervalMux_inst/f_reg[9]) is unused and will be removed from module acquireToHDMI.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/sampleIntervalMux_inst/f_reg[8]) is unused and will be removed from module acquireToHDMI.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/sampleIntervalMux_inst/f_reg[7]) is unused and will be removed from module acquireToHDMI.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/sampleIntervalMux_inst/f_reg[6]) is unused and will be removed from module acquireToHDMI.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/sampleIntervalMux_inst/f_reg[5]) is unused and will be removed from module acquireToHDMI.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/sampleIntervalMux_inst/f_reg[4]) is unused and will be removed from module acquireToHDMI.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/sampleIntervalMux_inst/f_reg[3]) is unused and will be removed from module acquireToHDMI.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/sampleIntervalMux_inst/f_reg[2]) is unused and will be removed from module acquireToHDMI.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/sampleIntervalMux_inst/f_reg[1]) is unused and will be removed from module acquireToHDMI.
+WARNING: [Synth 8-3332] Sequential element (datapath_inst/sampleIntervalMux_inst/f_reg[0]) is unused and will be removed from module acquireToHDMI.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1483.820 ; gain = 614.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping   | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|dataToPixel | A*(B:0x3fdb2) | 16     | 11     | -      | -      | 27     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|dataToPixel | A*(B:0x3fdb2) | 16     | 11     | -      | -      | 27     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|dataToPixel | A*(B:0x3fdb2) | 16     | 11     | -      | -      | 27     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+---------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-565] redefining clock 'clk'
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1483.820 ; gain = 614.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1483.820 ; gain = 614.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1483.820 ; gain = 614.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 1483.820 ; gain = 614.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 1483.820 ; gain = 614.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 1483.820 ; gain = 614.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 1483.820 ; gain = 614.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 1483.820 ; gain = 614.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 1483.820 ; gain = 614.816
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|dataToPixel | A*B         | 30     | 18     | -      | -      | 27     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|dataToPixel | A*B         | 30     | 18     | -      | -      | 27     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|dataToPixel | A*B         | 0      | 18     | -      | -      | 27     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_wiz_0     |         1|
+|2     |hdmi_tx_0     |         1|
+|3     |blk_mem_gen_0 |         2|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+-------------------+------+
+|      |Cell               |Count |
++------+-------------------+------+
+|1     |blk_mem_gen_0_bbox |     2|
+|3     |clk_wiz_0_bbox     |     1|
+|4     |hdmi_tx_0_bbox     |     1|
+|5     |CARRY4             |    72|
+|6     |DSP48E1            |     3|
+|7     |LUT1               |    35|
+|8     |LUT2               |   230|
+|9     |LUT3               |    54|
+|10    |LUT4               |    79|
+|11    |LUT5               |    89|
+|12    |LUT6               |   217|
+|13    |FDRE               |   200|
+|14    |FDSE               |     4|
+|15    |IBUF               |    20|
+|16    |OBUF               |    12|
++------+-------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 1483.820 ; gain = 614.816
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 40 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:00:34 . Memory (MB): peak = 1483.820 ; gain = 511.621
+Synthesis Optimization Complete : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1483.820 ; gain = 614.816
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1483.820 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 75 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1487.078 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 7b36b458
+INFO: [Common 17-83] Releasing license: Synthesis
+96 Infos, 49 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:40 ; elapsed = 00:00:42 . Memory (MB): peak = 1487.078 ; gain = 1002.805
+INFO: [Common 17-1381] The checkpoint 'C:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.runs/synth_1/acquireToHDMI.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file acquireToHDMI_utilization_synth.rpt -pb acquireToHDMI_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Nov  9 23:19:59 2025...

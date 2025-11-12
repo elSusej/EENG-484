@@ -26,5 +26,7 @@ How to run
 3. For hardware testing, ensure the `scopeToHdmi.xdc` constraints match your board and target the Zynq-7000 device.
 
 Notes
-- The project may rely on additional IP cores (HDMI PHY or AXI interfaces) provided by Vivado IP Catalog. Check the project IP settings when opening the `.xpr`.
-- `lab2VGAtoHDMIgetworky/` is another folder with a working variant; see its README for differences.
+- The project may rely on additional IP cores (HDMI PHY or AXI interfaces) provided by the Vivado IP Catalog. Check the project IP settings when opening the `.xpr`.
+
+Important: working variant available
+- If you run into IP resolution, integration, or build errors with this original `lab2VGAtoHDMI` project, prefer the `lab2VGAtoHDMIgetworky/` folder. That variant was created as a functional "get working" version after real-world IP/core issues were encountered on the lab machines. The `getworky` folder contains pragmatic fixes, IP stubs, or simplified wrappers so the display subsystem will build and simulate reliably on course machines. See `lab2VGAtoHDMIgetworky/README.md` for details.

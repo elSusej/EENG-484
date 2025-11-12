@@ -1,0 +1,28 @@
+0.7
+2020.2
+May  7 2023
+15:24:31
+C:/EENG 484/Libraries/acquireToHDMI_package.vhd,1762658812,vhdl,C:/EENG 484/Libraries/dataToPixel.vhd;C:/EENG 484/lab4acquireToDisplay/acquireToHDMI.vhd;C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_datapath.vhdl;C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_fsm.vhdl;C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_tb.vhd;C:/EENG 484/lab4acquireToDisplay/an7606.vhd,,,acquiretohdmi_package,,,,,,,,
+C:/EENG 484/Libraries/basicBuildingBlocksVhdl_package.vhd,1757970340,vhdl,C:/EENG 484/Libraries/acquireToHDMI_package.vhd;C:/EENG 484/lab4acquireToDisplay/acquireToHDMI.vhd;C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_datapath.vhdl,,,basicbuildingblocks_package,,,,,,,,
+C:/EENG 484/Libraries/dataToPixel.vhd,1762658922,vhdl,,,,datatopixel,,,,,,,,
+C:/EENG 484/Libraries/genericComparator.vhd,1762641631,vhdl,,,,genericcompare,,,,,,,,
+C:/EENG 484/Libraries/genericCounter.vhd,1760726279,vhdl,,,,genericcounter,,,,,,,,
+C:/EENG 484/Libraries/genericMux4x1.vhd,1762576023,vhdl,,,,genericmux4x1,,,,,,,,
+C:/EENG 484/Libraries/genericRegister.vhd,1760726280,vhdl,,,,genericregister,,,,,,,,
+C:/EENG 484/Libraries/scopeToHdmi_package.vhd,1762360046,vhdl,C:/EENG 484/Libraries/acquireToHDMI_package.vhd;C:/EENG 484/Libraries/dataToPixel.vhd;C:/EENG 484/lab4acquireToDisplay/acquireToHDMI.vhd;C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_datapath.vhdl;C:/EENG 484/lab4acquireToDisplay/scopeFace.vhd;C:/EENG 484/lab4acquireToDisplay/videoSignalGenerator.vhdl,,,scopetohdmi_package,,,,,,,,
+C:/EENG 484/lab4acquireToDisplay/acquireToHDMI.vhd,1762753241,vhdl,,,,acquiretohdmi,,,,,,,,
+C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_datapath.vhdl,1762745194,vhdl,,,,acquiretohdmi_datapath,,,,,,,,
+C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_fsm.vhdl,1762752171,vhdl,,,,acquiretohdmi_fsm,,,,,,,,
+C:/EENG 484/lab4acquireToDisplay/acquireToHDMI_tb.vhd,1762752904,vhdl,,,,acquiretohdmi_tb,,,,,,,,
+C:/EENG 484/lab4acquireToDisplay/an7606.vhd,1761578649,vhdl,,,,an7606,,,,,,,,
+C:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,1762738547,verilog,,C:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/hdmi_tx_0_1/hdl/encode.v,,blk_mem_gen_0,,,../../../../lab4acquireToDisplay.ip_user_files/ipstatic,,,,,
+C:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,1762739058,verilog,,,,clk_wiz_0,,,../../../../lab4acquireToDisplay.ip_user_files/ipstatic,,,,,
+C:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,1762739058,verilog,,C:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,,clk_wiz_0_clk_wiz,,,../../../../lab4acquireToDisplay.ip_user_files/ipstatic,,,,,
+C:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/hdmi_tx_0_1/hdl/encode.v,1762738264,verilog,,C:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/hdmi_tx_0_1/hdl/serdes_10_to_1.v,,encode,,,../../../../lab4acquireToDisplay.ip_user_files/ipstatic,,,,,
+C:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/hdmi_tx_0_1/hdl/hdmi_tx_v1_0.v,1762738264,verilog,,C:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/hdmi_tx_0_1/sim/hdmi_tx_0.v,,hdmi_tx_v1_0,,,../../../../lab4acquireToDisplay.ip_user_files/ipstatic,,,,,
+C:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/hdmi_tx_0_1/hdl/serdes_10_to_1.v,1762738264,verilog,,C:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/hdmi_tx_0_1/hdl/srldelay.v,,serdes_10_to_1,,,../../../../lab4acquireToDisplay.ip_user_files/ipstatic,,,,,
+C:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/hdmi_tx_0_1/hdl/srldelay.v,1762738264,verilog,,C:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/hdmi_tx_0_1/hdl/hdmi_tx_v1_0.v,,srldelay,,,../../../../lab4acquireToDisplay.ip_user_files/ipstatic,,,,,
+C:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/hdmi_tx_0_1/sim/hdmi_tx_0.v,1762738264,verilog,,C:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,,hdmi_tx_0,,,../../../../lab4acquireToDisplay.ip_user_files/ipstatic,,,,,
+C:/EENG 484/lab4acquireToDisplay/lab4acquireToDisplay.sim/sim_1/behav/xsim/glbl.v,1683266558,verilog,,,,glbl,,,,,,,,
+C:/EENG 484/lab4acquireToDisplay/scopeFace.vhd,1762132869,vhdl,,,,scopeface,,,,,,,,
+C:/EENG 484/lab4acquireToDisplay/videoSignalGenerator.vhdl,1762132869,vhdl,,,,videosignalgenerator,,,,,,,,

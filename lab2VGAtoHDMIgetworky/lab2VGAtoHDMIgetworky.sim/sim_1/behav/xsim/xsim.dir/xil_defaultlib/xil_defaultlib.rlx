@@ -1,0 +1,17 @@
+0.7
+2020.2
+May  7 2023
+15:24:31
+C:/EENG 484/Libraries/scopeToHdmi_package.vhd,1762135563,vhdl,C:/EENG 484/lab2VGAtoHDMIgetworky/scopeToHDMI/scopeFace.vhd;C:/EENG 484/lab2VGAtoHDMIgetworky/scopeToHDMI/scopeToHdmi.vhdl;C:/EENG 484/lab2VGAtoHDMIgetworky/scopeToHDMI/scopeToHdmi_tb.vhd;C:/EENG 484/lab2VGAtoHDMIgetworky/scopeToHDMI/videoSignalGenerator.vhdl,,,scopetohdmi_package,,,,,,,,
+C:/EENG 484/lab2VGAtoHDMIgetworky/lab2VGAtoHDMIgetworky.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,1762135946,verilog,,C:/EENG 484/lab2VGAtoHDMIgetworky/lab2VGAtoHDMIgetworky.gen/sources_1/ip/hdmi_tx_0/hdl/encode.v,,clk_wiz_0,,,../../../../lab2VGAtoHDMIgetworky.ip_user_files/ipstatic,,,,,
+C:/EENG 484/lab2VGAtoHDMIgetworky/lab2VGAtoHDMIgetworky.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,1762135946,verilog,,C:/EENG 484/lab2VGAtoHDMIgetworky/lab2VGAtoHDMIgetworky.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,,clk_wiz_0_clk_wiz,,,../../../../lab2VGAtoHDMIgetworky.ip_user_files/ipstatic,,,,,
+C:/EENG 484/lab2VGAtoHDMIgetworky/lab2VGAtoHDMIgetworky.gen/sources_1/ip/hdmi_tx_0/hdl/encode.v,1762136921,verilog,,C:/EENG 484/lab2VGAtoHDMIgetworky/lab2VGAtoHDMIgetworky.gen/sources_1/ip/hdmi_tx_0/hdl/serdes_10_to_1.v,,encode,,,../../../../lab2VGAtoHDMIgetworky.ip_user_files/ipstatic,,,,,
+C:/EENG 484/lab2VGAtoHDMIgetworky/lab2VGAtoHDMIgetworky.gen/sources_1/ip/hdmi_tx_0/hdl/hdmi_tx_v1_0.v,1762136921,verilog,,C:/EENG 484/lab2VGAtoHDMIgetworky/lab2VGAtoHDMIgetworky.gen/sources_1/ip/hdmi_tx_0/sim/hdmi_tx_0.v,,hdmi_tx_v1_0,,,../../../../lab2VGAtoHDMIgetworky.ip_user_files/ipstatic,,,,,
+C:/EENG 484/lab2VGAtoHDMIgetworky/lab2VGAtoHDMIgetworky.gen/sources_1/ip/hdmi_tx_0/hdl/serdes_10_to_1.v,1762136921,verilog,,C:/EENG 484/lab2VGAtoHDMIgetworky/lab2VGAtoHDMIgetworky.gen/sources_1/ip/hdmi_tx_0/hdl/srldelay.v,,serdes_10_to_1,,,../../../../lab2VGAtoHDMIgetworky.ip_user_files/ipstatic,,,,,
+C:/EENG 484/lab2VGAtoHDMIgetworky/lab2VGAtoHDMIgetworky.gen/sources_1/ip/hdmi_tx_0/hdl/srldelay.v,1762136921,verilog,,C:/EENG 484/lab2VGAtoHDMIgetworky/lab2VGAtoHDMIgetworky.gen/sources_1/ip/hdmi_tx_0/hdl/hdmi_tx_v1_0.v,,srldelay,,,../../../../lab2VGAtoHDMIgetworky.ip_user_files/ipstatic,,,,,
+C:/EENG 484/lab2VGAtoHDMIgetworky/lab2VGAtoHDMIgetworky.gen/sources_1/ip/hdmi_tx_0/sim/hdmi_tx_0.v,1762136921,verilog,,,,hdmi_tx_0,,,../../../../lab2VGAtoHDMIgetworky.ip_user_files/ipstatic,,,,,
+C:/EENG 484/lab2VGAtoHDMIgetworky/lab2VGAtoHDMIgetworky.sim/sim_1/behav/xsim/glbl.v,1683266558,verilog,,,,glbl,,,,,,,,
+C:/EENG 484/lab2VGAtoHDMIgetworky/scopeToHDMI/scopeFace.vhd,1762132869,vhdl,,,,scopeface,,,,,,,,
+C:/EENG 484/lab2VGAtoHDMIgetworky/scopeToHDMI/scopeToHdmi.vhdl,1762132869,vhdl,,,,scopetohdmi,,,,,,,,
+C:/EENG 484/lab2VGAtoHDMIgetworky/scopeToHDMI/scopeToHdmi_tb.vhd,1762132869,vhdl,,,,scopetohdmi_tb,,,,,,,,
+C:/EENG 484/lab2VGAtoHDMIgetworky/scopeToHDMI/videoSignalGenerator.vhdl,1762132869,vhdl,,,,videosignalgenerator,,,,,,,,

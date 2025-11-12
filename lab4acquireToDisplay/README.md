@@ -26,3 +26,6 @@ How to run
 
 Notes
 - This lab combines real-time acquisition with video timing — pay special attention to clock domains and FIFO/buffer sizing to avoid overrun/underrun between acquisition and display domains.
+
+Variants
+- There is a simulation-focused variant in `../lab4acquireToDisplay - Simulation Edit/`. That folder contains a slightly modified top-level/button processing so the included testbench can interact deterministically with `acquireToHDMI` in simulation. Use the Simulation Edit folder for behavioral verification and the original folder for hardware synthesis.

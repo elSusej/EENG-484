@@ -1,27 +1,27 @@
-# EENG 484 — Advanced Digital Design (VHDL)
+EENG-484 FPGA Labs
 
-This repository contains VHDL lab code used in the EENG 484 Advanced Digital Design course at the Colorado School of Mines (Professor Coulston).
+This repository contains the course lab projects for EENG 484. Each lab folder contains VHDL source files, Vivado project files (.xpr), testbenches, and supporting files used in the assignments.
 
-Target platform
-- Xilinx Zynq-7000 System on Chip (7-series). Designs are intended to be synthesized/implemented with Xilinx Vivado (and simulated with your preferred VHDL simulator).
+Top-level folders (major labs)
+- lab1EnhancedPWM/ — Enhanced PWM lab (VHDL building blocks and PWM generator)
+- lab2VGAtoHDMI/ — VGA/Scope-to-HDMI lab (original project; may reference vendor IP)
+- lab2VGAtoHDMIgetworky/ — Functional "getworky" variant of Lab 2 (use this if the original fails due to IP/core issues)
+- lab3signalAcquire/ — Signal acquisition lab (datapath + FSM + testbench)
+- lab4acquireToDisplay/ — Acquire-to-Display (HDMI pipeline) for hardware
+- lab4acquireToDisplay - Simulation Edit/ — Simulation-focused variant of Lab 4 (small button/process change so the testbench can drive the top-level entity)
+- Libraries/ — Shared VHDL packages and components used across labs
 
-Repository layout (top-level)
-- `lab1EnhancedPWM/` — Enhanced PWM lab sources and project files.
-- `lab2VGAtoHDMI/` — VGA to HDMI / scope-to-HDMI lab.
-- `lab2VGAtoHDMIgetworky/` — Alternate/working copy of lab2 project.
-- `lab3signalAcquire/` — Signal acquisition lab (datapath + FSM).
-- `lab4acquireToDisplay/` — Acquire-to-display lab (HDMI data path + FSM).
-- `Libraries/` — Shared VHDL packages and reusable components.
-- `ipRepo/` — IP cores and example components (not part of the lab projects directly).
+Which folder should I use?
+- For Lab 2: If `lab2VGAtoHDMI/` builds and simulates fine on your machine, use it. If you encounter IP resolution or integration problems, use `lab2VGAtoHDMIgetworky/` — this variant was created as a working alternative that avoids those blockers.
+- For Lab 4: Use `lab4acquireToDisplay/` for hardware synthesis and implementation. Use `lab4acquireToDisplay - Simulation Edit/` for behavioral simulation with the included testbench (it modifies button handling to make simulation deterministic).
 
-How to open and use a lab project
-1. Open Vivado and select "Open Project..." then choose the `.xpr` file in the lab folder (for example `lab1EnhancedPWM.xpr`).
-2. Constraints: each lab typically includes an `.xdc` constraints file in the same folder (e.g. `scopeToHdmi.xdc`, `signalAcquire.xdc`, `acquireToHDMI.xdc`) — these specify board pin mappings and timing constraints for the target board.
-3. Simulation: testbench files (`*_tb.vhd` or `*_tb.vhdl`) are included for behavioral simulation. Use Vivado simulator, ModelSim, GHDL, or your preferred VHDL simulator.
+Quick tips
+- Open the `.xpr` Vivado project files for the lab you want to run.
+- Load the corresponding `_tb.vhd` testbench and the `*_tbWaveSetup.tcl` waveform setup file to replicate the course simulation setup.
+- If multiple copies of the same package exist, prefer the `Libraries/` copy for consistency.
 
-Notes and best practices
-- The top-level entity for each lab is named in the lab folder README; open the Vivado project to examine the full top-level hierarchy.
-- Shared packages and components are in the `Libraries/` folder and may be referenced by lab sources. Add that folder to your Vivado project search path if needed.
-- These designs are educational examples; when targeting actual hardware, double-check constraint files for your specific board and adjust IO mappings and clock settings as required.
+If you'd like, I can:
+- Expand individual lab READMEs with step-by-step simulation or synthesis instructions.
+- Add a short "how to run simulation" section in each lab folder tailored to Vivado on Windows.
 
-If you need further edits (add Vivado version, board name, or run instructions), tell me which lab and I'll update the README accordingly.
+(Generated/updated on 2025-11-11)

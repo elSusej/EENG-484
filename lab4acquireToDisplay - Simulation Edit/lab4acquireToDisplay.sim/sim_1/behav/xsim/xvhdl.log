@@ -1,0 +1,27 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EENG 484/Libraries/scopeToHdmi_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EENG 484/Libraries/basicBuildingBlocksVhdl_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EENG 484/Libraries/acquireToHDMI_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EENG 484/lab4acquireToDisplay - Simulation Edit/acquireToHDMI.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'acquireToHDMI'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EENG 484/lab4acquireToDisplay - Simulation Edit/acquireToHDMI_datapath.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'acquireToHDMI_datapath'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EENG 484/lab4acquireToDisplay - Simulation Edit/acquireToHDMI_fsm.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'acquireToHDMI_fsm'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EENG 484/lab4acquireToDisplay - Simulation Edit/an7606.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'an7606'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EENG 484/Libraries/dataToPixel.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'dataToPixel'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EENG 484/Libraries/genericComparator.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'genericCompare'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EENG 484/Libraries/genericCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'genericCounter'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EENG 484/Libraries/genericMux4x1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'genericMux4x1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EENG 484/Libraries/genericRegister.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'genericRegister'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EENG 484/lab4acquireToDisplay - Simulation Edit/scopeFace.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'scopeFace'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EENG 484/lab4acquireToDisplay - Simulation Edit/videoSignalGenerator.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'videoSignalGenerator'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/EENG 484/lab4acquireToDisplay - Simulation Edit/acquireToHDMI_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'acquireToHDMI_tb'

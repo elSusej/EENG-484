@@ -81,10 +81,11 @@ BEGIN
     button_process :process
     begin
         
-        btn_t <= "000"; 
+        btn_t <= "010"; 
         wait until (resetn_t = '1');
         wait for clk_period;
-        
+--        btn_t <= "010";
+        btn_t <= "000"; 
         -- commment out the following for forced mode
         --btn_t <= "010";     -- trigger mode
         
