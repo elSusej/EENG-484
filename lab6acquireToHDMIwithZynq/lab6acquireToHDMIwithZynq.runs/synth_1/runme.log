@@ -1,0 +1,257 @@
+
+*** Running vivado
+    with args -log acquireToHDMIwithZynq_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source acquireToHDMIwithZynq_wrapper.tcl
+
+
+
+****** Vivado v2025.1 (64-bit)
+  **** SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+  **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+  **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+  **** Start of session at: Tue Dec  9 13:32:57 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source acquireToHDMIwithZynq_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/EENG 484/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/EENG 484/ipRepo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/2025.1/Vivado/data/ip'.
+Command: read_checkpoint -auto_incremental -incremental {C:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.srcs/utils_1/imports/synth_1/acquireToHDMIwithZynq_wrapper.dcp}
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.srcs/utils_1/imports/synth_1/acquireToHDMIwithZynq_wrapper.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top acquireToHDMIwithZynq_wrapper -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 9392
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1268.859 ; gain = 492.594
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'acquireToHDMIwithZynq_wrapper' [C:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/hdl/acquireToHDMIwithZynq_wrapper.vhd:57]
+INFO: [Synth 8-3491] module 'acquireToHDMIwithZynq' declared at 'c:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/synth/acquireToHDMIwithZynq.vhd:15' bound to instance 'acquireToHDMIwithZynq_i' of component 'acquireToHDMIwithZynq' [C:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/hdl/acquireToHDMIwithZynq_wrapper.vhd:100]
+INFO: [Synth 8-638] synthesizing module 'acquireToHDMIwithZynq' [c:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/synth/acquireToHDMIwithZynq.vhd:61]
+INFO: [Synth 8-3491] module 'acquireToHDMIwithZynq_acquireToDisplay_AXI_0_0' declared at 'C:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.runs/synth_1/.Xil/Vivado-13808-DESKTOP-BLLF4DN/realtime/acquireToHDMIwithZynq_acquireToDisplay_AXI_0_0_stub.vhdl:6' bound to instance 'acquireToDisplay_AXI_0' of component 'acquireToHDMIwithZynq_acquireToDisplay_AXI_0_0' [c:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/synth/acquireToHDMIwithZynq.vhd:477]
+INFO: [Synth 8-638] synthesizing module 'acquireToHDMIwithZynq_acquireToDisplay_AXI_0_0' [C:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.runs/synth_1/.Xil/Vivado-13808-DESKTOP-BLLF4DN/realtime/acquireToHDMIwithZynq_acquireToDisplay_AXI_0_0_stub.vhdl:51]
+INFO: [Synth 8-3491] module 'acquireToHDMIwithZynq_axi_smc_0' declared at 'C:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.runs/synth_1/.Xil/Vivado-13808-DESKTOP-BLLF4DN/realtime/acquireToHDMIwithZynq_axi_smc_0_stub.vhdl:6' bound to instance 'axi_smc' of component 'acquireToHDMIwithZynq_axi_smc_0' [c:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/synth/acquireToHDMIwithZynq.vhd:513]
+INFO: [Synth 8-638] synthesizing module 'acquireToHDMIwithZynq_axi_smc_0' [C:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.runs/synth_1/.Xil/Vivado-13808-DESKTOP-BLLF4DN/realtime/acquireToHDMIwithZynq_axi_smc_0_stub.vhdl:115]
+INFO: [Synth 8-3491] module 'acquireToHDMIwithZynq_enhancedPwmAXI_0_0' declared at 'C:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.runs/synth_1/.Xil/Vivado-13808-DESKTOP-BLLF4DN/realtime/acquireToHDMIwithZynq_enhancedPwmAXI_0_0_stub.vhdl:6' bound to instance 'enhancedPwmAXI_0' of component 'acquireToHDMIwithZynq_enhancedPwmAXI_0_0' [c:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/synth/acquireToHDMIwithZynq.vhd:613]
+INFO: [Synth 8-638] synthesizing module 'acquireToHDMIwithZynq_enhancedPwmAXI_0_0' [C:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.runs/synth_1/.Xil/Vivado-13808-DESKTOP-BLLF4DN/realtime/acquireToHDMIwithZynq_enhancedPwmAXI_0_0_stub.vhdl:42]
+INFO: [Synth 8-3491] module 'acquireToHDMIwithZynq_enhancedPwmAXI_1_0' declared at 'C:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.runs/synth_1/.Xil/Vivado-13808-DESKTOP-BLLF4DN/realtime/acquireToHDMIwithZynq_enhancedPwmAXI_1_0_stub.vhdl:6' bound to instance 'enhancedPwmAXI_1' of component 'acquireToHDMIwithZynq_enhancedPwmAXI_1_0' [c:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/synth/acquireToHDMIwithZynq.vhd:640]
+INFO: [Synth 8-638] synthesizing module 'acquireToHDMIwithZynq_enhancedPwmAXI_1_0' [C:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.runs/synth_1/.Xil/Vivado-13808-DESKTOP-BLLF4DN/realtime/acquireToHDMIwithZynq_enhancedPwmAXI_1_0_stub.vhdl:42]
+INFO: [Synth 8-3491] module 'acquireToHDMIwithZynq_processing_system7_0_0' declared at 'C:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.runs/synth_1/.Xil/Vivado-13808-DESKTOP-BLLF4DN/realtime/acquireToHDMIwithZynq_processing_system7_0_0_stub.vhdl:6' bound to instance 'processing_system7_0' of component 'acquireToHDMIwithZynq_processing_system7_0_0' [c:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/synth/acquireToHDMIwithZynq.vhd:667]
+INFO: [Synth 8-638] synthesizing module 'acquireToHDMIwithZynq_processing_system7_0_0' [C:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.runs/synth_1/.Xil/Vivado-13808-DESKTOP-BLLF4DN/realtime/acquireToHDMIwithZynq_processing_system7_0_0_stub.vhdl:85]
+INFO: [Synth 8-3491] module 'acquireToHDMIwithZynq_rst_ps7_0_50M_0' declared at 'C:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.runs/synth_1/.Xil/Vivado-13808-DESKTOP-BLLF4DN/realtime/acquireToHDMIwithZynq_rst_ps7_0_50M_0_stub.vhdl:6' bound to instance 'rst_ps7_0_50M' of component 'acquireToHDMIwithZynq_rst_ps7_0_50M_0' [c:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/synth/acquireToHDMIwithZynq.vhd:737]
+INFO: [Synth 8-638] synthesizing module 'acquireToHDMIwithZynq_rst_ps7_0_50M_0' [C:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.runs/synth_1/.Xil/Vivado-13808-DESKTOP-BLLF4DN/realtime/acquireToHDMIwithZynq_rst_ps7_0_50M_0_stub.vhdl:28]
+INFO: [Synth 8-256] done synthesizing module 'acquireToHDMIwithZynq' (0#1) [c:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/synth/acquireToHDMIwithZynq.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'acquireToHDMIwithZynq_wrapper' (0#1) [C:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/hdl/acquireToHDMIwithZynq_wrapper.vhd:57]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1384.375 ; gain = 608.109
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1384.375 ; gain = 608.109
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1384.375 ; gain = 608.109
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1384.375 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/ip/acquireToHDMIwithZynq_enhancedPwmAXI_0_0/acquireToHDMIwithZynq_enhancedPwmAXI_0_0/acquireToHDMIwithZynq_enhancedPwmAXI_0_0_in_context.xdc] for cell 'acquireToHDMIwithZynq_i/enhancedPwmAXI_0'
+Finished Parsing XDC File [c:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/ip/acquireToHDMIwithZynq_enhancedPwmAXI_0_0/acquireToHDMIwithZynq_enhancedPwmAXI_0_0/acquireToHDMIwithZynq_enhancedPwmAXI_0_0_in_context.xdc] for cell 'acquireToHDMIwithZynq_i/enhancedPwmAXI_0'
+Parsing XDC File [c:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/ip/acquireToHDMIwithZynq_acquireToDisplay_AXI_0_0/acquireToHDMIwithZynq_acquireToDisplay_AXI_0_0/acquireToHDMIwithZynq_acquireToDisplay_AXI_0_0_in_context.xdc] for cell 'acquireToHDMIwithZynq_i/acquireToDisplay_AXI_0'
+Finished Parsing XDC File [c:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/ip/acquireToHDMIwithZynq_acquireToDisplay_AXI_0_0/acquireToHDMIwithZynq_acquireToDisplay_AXI_0_0/acquireToHDMIwithZynq_acquireToDisplay_AXI_0_0_in_context.xdc] for cell 'acquireToHDMIwithZynq_i/acquireToDisplay_AXI_0'
+Parsing XDC File [c:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/ip/acquireToHDMIwithZynq_processing_system7_0_0/acquireToHDMIwithZynq_processing_system7_0_0/acquireToHDMIwithZynq_processing_system7_0_0_in_context.xdc] for cell 'acquireToHDMIwithZynq_i/processing_system7_0'
+Finished Parsing XDC File [c:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/ip/acquireToHDMIwithZynq_processing_system7_0_0/acquireToHDMIwithZynq_processing_system7_0_0/acquireToHDMIwithZynq_processing_system7_0_0_in_context.xdc] for cell 'acquireToHDMIwithZynq_i/processing_system7_0'
+Parsing XDC File [c:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/ip/acquireToHDMIwithZynq_axi_smc_0/acquireToHDMIwithZynq_axi_smc_0/acquireToHDMIwithZynq_axi_smc_0_in_context.xdc] for cell 'acquireToHDMIwithZynq_i/axi_smc'
+Finished Parsing XDC File [c:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/ip/acquireToHDMIwithZynq_axi_smc_0/acquireToHDMIwithZynq_axi_smc_0/acquireToHDMIwithZynq_axi_smc_0_in_context.xdc] for cell 'acquireToHDMIwithZynq_i/axi_smc'
+Parsing XDC File [c:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/ip/acquireToHDMIwithZynq_rst_ps7_0_50M_0/acquireToHDMIwithZynq_rst_ps7_0_50M_0/acquireToHDMIwithZynq_rst_ps7_0_50M_0_in_context.xdc] for cell 'acquireToHDMIwithZynq_i/rst_ps7_0_50M'
+Finished Parsing XDC File [c:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/ip/acquireToHDMIwithZynq_rst_ps7_0_50M_0/acquireToHDMIwithZynq_rst_ps7_0_50M_0/acquireToHDMIwithZynq_rst_ps7_0_50M_0_in_context.xdc] for cell 'acquireToHDMIwithZynq_i/rst_ps7_0_50M'
+Parsing XDC File [c:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/ip/acquireToHDMIwithZynq_enhancedPwmAXI_1_0/acquireToHDMIwithZynq_enhancedPwmAXI_1_0/acquireToHDMIwithZynq_enhancedPwmAXI_0_0_in_context.xdc] for cell 'acquireToHDMIwithZynq_i/enhancedPwmAXI_1'
+Finished Parsing XDC File [c:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/ip/acquireToHDMIwithZynq_enhancedPwmAXI_1_0/acquireToHDMIwithZynq_enhancedPwmAXI_1_0/acquireToHDMIwithZynq_enhancedPwmAXI_0_0_in_context.xdc] for cell 'acquireToHDMIwithZynq_i/enhancedPwmAXI_1'
+Parsing XDC File [C:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.srcs/constrs_1/new/lab6constraints.xdc]
+Finished Parsing XDC File [C:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.srcs/constrs_1/new/lab6constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.srcs/constrs_1/new/lab6constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/acquireToHDMIwithZynq_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/acquireToHDMIwithZynq_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1384.375 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1384.375 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1384.375 ; gain = 608.109
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1384.375 ; gain = 608.109
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1384.375 ; gain = 608.109
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1384.375 ; gain = 608.109
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1400.074 ; gain = 623.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1576.426 ; gain = 800.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1576.574 ; gain = 800.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1586.504 ; gain = 810.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1821.379 ; gain = 1045.113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1821.379 ; gain = 1045.113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1821.379 ; gain = 1045.113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1821.379 ; gain = 1045.113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1821.379 ; gain = 1045.113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1821.379 ; gain = 1045.113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-----------------------------------------------+----------+
+|      |BlackBox name                                  |Instances |
++------+-----------------------------------------------+----------+
+|1     |acquireToHDMIwithZynq_acquireToDisplay_AXI_0_0 |         1|
+|2     |acquireToHDMIwithZynq_axi_smc_0                |         1|
+|3     |acquireToHDMIwithZynq_enhancedPwmAXI_0_0       |         1|
+|4     |acquireToHDMIwithZynq_enhancedPwmAXI_1_0       |         1|
+|5     |acquireToHDMIwithZynq_processing_system7_0_0   |         1|
+|6     |acquireToHDMIwithZynq_rst_ps7_0_50M_0          |         1|
++------+-----------------------------------------------+----------+
+
+Report Cell Usage: 
++------+----------------------------------------------------+------+
+|      |Cell                                                |Count |
++------+----------------------------------------------------+------+
+|1     |acquireToHDMIwithZynq_acquireToDisplay_AXI_0_0_bbox |     1|
+|2     |acquireToHDMIwithZynq_axi_smc_0_bbox                |     1|
+|3     |acquireToHDMIwithZynq_enhancedPwmAXI_0_0_bbox       |     1|
+|4     |acquireToHDMIwithZynq_enhancedPwmAXI_1_0_bbox       |     1|
+|5     |acquireToHDMIwithZynq_processing_system7_0_0_bbox   |     1|
+|6     |acquireToHDMIwithZynq_rst_ps7_0_50M_0_bbox          |     1|
+|7     |IBUF                                                |    19|
+|8     |OBUF                                                |    10|
++------+----------------------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1821.379 ; gain = 1045.113
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:29 . Memory (MB): peak = 1821.379 ; gain = 1045.113
+Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1821.379 ; gain = 1045.113
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1830.441 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1834.125 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 5c06ff99
+INFO: [Common 17-83] Releasing license: Synthesis
+40 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+INFO: [Common 17-600] The following parameters have non-default value.
+tcl.statsThreshold
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1834.125 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.runs/synth_1/acquireToHDMIwithZynq_wrapper.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file acquireToHDMIwithZynq_wrapper_utilization_synth.rpt -pb acquireToHDMIwithZynq_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Dec  9 13:33:47 2025...

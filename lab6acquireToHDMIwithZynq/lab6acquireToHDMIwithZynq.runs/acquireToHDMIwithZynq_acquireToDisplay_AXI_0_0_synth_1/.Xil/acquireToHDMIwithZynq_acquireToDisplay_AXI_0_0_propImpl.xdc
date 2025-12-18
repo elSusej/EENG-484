@@ -1,0 +1,4 @@
+set_property SRC_FILE_INFO {cfile:{c:/EENG 484/lab6acquireToHDMIwithZynq/lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/ip/acquireToHDMIwithZynq_acquireToDisplay_AXI_0_0/src/clk_wiz_0_1/clk_wiz_0.xdc} rfile:../../../lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/ip/acquireToHDMIwithZynq_acquireToDisplay_AXI_0_0/src/clk_wiz_0_1/clk_wiz_0.xdc id:1 order:EARLY scoped_inst:U0/acquireToDisplay_AXI_slave_lite_v1_0_S00_AXI_inst/oscilloscope_inst/datapath_inst/vc/inst} [current_design]
+current_instance U0/acquireToDisplay_AXI_slave_lite_v1_0_S00_AXI_inst/oscilloscope_inst/datapath_inst/vc/inst
+set_property src_info {type:SCOPED_XDC file:1 line:54 export:INPUT save:INPUT read:READ} [current_design]
+set_input_jitter [get_clocks -of_objects [get_ports clk_in1]] 0.200

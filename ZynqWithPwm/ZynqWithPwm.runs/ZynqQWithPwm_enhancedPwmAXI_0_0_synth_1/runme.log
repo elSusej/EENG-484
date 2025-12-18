@@ -1,0 +1,295 @@
+
+*** Running vivado
+    with args -log ZynqQWithPwm_enhancedPwmAXI_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ZynqQWithPwm_enhancedPwmAXI_0_0.tcl
+
+
+
+****** Vivado v2025.1 (64-bit)
+  **** SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+  **** IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+  **** SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+  **** Start of session at: Wed Nov 19 14:24:53 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source ZynqQWithPwm_enhancedPwmAXI_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 511.910 ; gain = 210.719
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/EENG 484/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/2025.1/Vivado/data/ip'.
+Command: synth_design -top ZynqQWithPwm_enhancedPwmAXI_0_0 -part xc7z010clg400-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 10876
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1227.297 ; gain = 494.078
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'ZynqQWithPwm_enhancedPwmAXI_0_0' [c:/EENG 484/ZynqWithPwm/ZynqWithPwm.gen/sources_1/bd/ZynqQWithPwm/ip/ZynqQWithPwm_enhancedPwmAXI_0_0/synth/ZynqQWithPwm_enhancedPwmAXI_0_0.vhd:85]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'enhancedPwmAXI' declared at 'c:/EENG 484/ZynqWithPwm/ZynqWithPwm.gen/sources_1/bd/ZynqQWithPwm/ipshared/870b/hdl/enhancedPwmAXI.vhd:5' bound to instance 'U0' of component 'enhancedPwmAXI' [c:/EENG 484/ZynqWithPwm/ZynqWithPwm.gen/sources_1/bd/ZynqQWithPwm/ip/ZynqQWithPwm_enhancedPwmAXI_0_0/synth/ZynqQWithPwm_enhancedPwmAXI_0_0.vhd:158]
+INFO: [Synth 8-638] synthesizing module 'enhancedPwmAXI' [c:/EENG 484/ZynqWithPwm/ZynqWithPwm.gen/sources_1/bd/ZynqQWithPwm/ipshared/870b/hdl/enhancedPwmAXI.vhd:51]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'enhancedPwmAXI_slave_lite_v1_0_S00_AXI' declared at 'c:/EENG 484/ZynqWithPwm/ZynqWithPwm.gen/sources_1/bd/ZynqQWithPwm/ipshared/870b/hdl/enhancedPwmAXI_slave_lite_v1_0_S00_AXI.vhd:5' bound to instance 'enhancedPwmAXI_slave_lite_v1_0_S00_AXI_inst' of component 'enhancedPwmAXI_slave_lite_v1_0_S00_AXI' [c:/EENG 484/ZynqWithPwm/ZynqWithPwm.gen/sources_1/bd/ZynqQWithPwm/ipshared/870b/hdl/enhancedPwmAXI.vhd:90]
+INFO: [Synth 8-638] synthesizing module 'enhancedPwmAXI_slave_lite_v1_0_S00_AXI' [c:/EENG 484/ZynqWithPwm/ZynqWithPwm.gen/sources_1/bd/ZynqQWithPwm/ipshared/870b/hdl/enhancedPwmAXI_slave_lite_v1_0_S00_AXI.vhd:89]
+INFO: [Synth 8-226] default block is never used [c:/EENG 484/ZynqWithPwm/ZynqWithPwm.gen/sources_1/bd/ZynqQWithPwm/ipshared/870b/hdl/enhancedPwmAXI_slave_lite_v1_0_S00_AXI.vhd:234]
+INFO: [Synth 8-3491] module 'enhancedPwm' declared at 'c:/EENG 484/ZynqWithPwm/ZynqWithPwm.gen/sources_1/bd/ZynqQWithPwm/ipshared/870b/src/enhancedPwm.vhd:7' bound to instance 'enhancedPwm_inst' of component 'enhancedPwm' [c:/EENG 484/ZynqWithPwm/ZynqWithPwm.gen/sources_1/bd/ZynqQWithPwm/ipshared/870b/hdl/enhancedPwmAXI_slave_lite_v1_0_S00_AXI.vhd:329]
+INFO: [Synth 8-638] synthesizing module 'enhancedPwm' [c:/EENG 484/ZynqWithPwm/ZynqWithPwm.gen/sources_1/bd/ZynqQWithPwm/ipshared/870b/src/enhancedPwm.vhd:17]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'genericCounter' declared at 'c:/EENG 484/ZynqWithPwm/ZynqWithPwm.gen/sources_1/bd/ZynqQWithPwm/ipshared/870b/src/genericCounter.vhd:15' bound to instance 'counter_inst' of component 'genericCounter' [c:/EENG 484/ZynqWithPwm/ZynqWithPwm.gen/sources_1/bd/ZynqQWithPwm/ipshared/870b/src/enhancedPwm.vhd:29]
+INFO: [Synth 8-638] synthesizing module 'genericCounter' [c:/EENG 484/ZynqWithPwm/ZynqWithPwm.gen/sources_1/bd/ZynqQWithPwm/ipshared/870b/src/genericCounter.vhd:23]
+INFO: [Synth 8-256] done synthesizing module 'genericCounter' (0#1) [c:/EENG 484/ZynqWithPwm/ZynqWithPwm.gen/sources_1/bd/ZynqQWithPwm/ipshared/870b/src/genericCounter.vhd:23]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'genericCompare' declared at 'c:/EENG 484/ZynqWithPwm/ZynqWithPwm.gen/sources_1/bd/ZynqQWithPwm/ipshared/870b/src/genericComparator.vhd:11' bound to instance 'rollCompare' of component 'genericCompare' [c:/EENG 484/ZynqWithPwm/ZynqWithPwm.gen/sources_1/bd/ZynqQWithPwm/ipshared/870b/src/enhancedPwm.vhd:37]
+INFO: [Synth 8-638] synthesizing module 'genericCompare' [c:/EENG 484/ZynqWithPwm/ZynqWithPwm.gen/sources_1/bd/ZynqQWithPwm/ipshared/870b/src/genericComparator.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'genericCompare' (0#1) [c:/EENG 484/ZynqWithPwm/ZynqWithPwm.gen/sources_1/bd/ZynqQWithPwm/ipshared/870b/src/genericComparator.vhd:17]
+	Parameter N bound to: 9 - type: integer 
+INFO: [Synth 8-3491] module 'genericCompare' declared at 'c:/EENG 484/ZynqWithPwm/ZynqWithPwm.gen/sources_1/bd/ZynqQWithPwm/ipshared/870b/src/genericComparator.vhd:11' bound to instance 'dutyCompare' of component 'genericCompare' [c:/EENG 484/ZynqWithPwm/ZynqWithPwm.gen/sources_1/bd/ZynqQWithPwm/ipshared/870b/src/enhancedPwm.vhd:53]
+INFO: [Synth 8-638] synthesizing module 'genericCompare__parameterized1' [c:/EENG 484/ZynqWithPwm/ZynqWithPwm.gen/sources_1/bd/ZynqQWithPwm/ipshared/870b/src/genericComparator.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'genericCompare__parameterized1' (0#1) [c:/EENG 484/ZynqWithPwm/ZynqWithPwm.gen/sources_1/bd/ZynqQWithPwm/ipshared/870b/src/genericComparator.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'enhancedPwm' (0#1) [c:/EENG 484/ZynqWithPwm/ZynqWithPwm.gen/sources_1/bd/ZynqQWithPwm/ipshared/870b/src/enhancedPwm.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'enhancedPwmAXI_slave_lite_v1_0_S00_AXI' (0#1) [c:/EENG 484/ZynqWithPwm/ZynqWithPwm.gen/sources_1/bd/ZynqQWithPwm/ipshared/870b/hdl/enhancedPwmAXI_slave_lite_v1_0_S00_AXI.vhd:89]
+INFO: [Synth 8-256] done synthesizing module 'enhancedPwmAXI' (0#1) [c:/EENG 484/ZynqWithPwm/ZynqWithPwm.gen/sources_1/bd/ZynqQWithPwm/ipshared/870b/hdl/enhancedPwmAXI.vhd:51]
+INFO: [Synth 8-256] done synthesizing module 'ZynqQWithPwm_enhancedPwmAXI_0_0' (0#1) [c:/EENG 484/ZynqWithPwm/ZynqWithPwm.gen/sources_1/bd/ZynqQWithPwm/ip/ZynqQWithPwm_enhancedPwmAXI_0_0/synth/ZynqQWithPwm_enhancedPwmAXI_0_0.vhd:85]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg1_reg was removed.  [c:/EENG 484/ZynqWithPwm/ZynqWithPwm.gen/sources_1/bd/ZynqQWithPwm/ipshared/870b/hdl/enhancedPwmAXI_slave_lite_v1_0_S00_AXI.vhd:229]
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[2] in module enhancedPwmAXI_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[1] in module enhancedPwmAXI_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[0] in module enhancedPwmAXI_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[2] in module enhancedPwmAXI_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[1] in module enhancedPwmAXI_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[0] in module enhancedPwmAXI_slave_lite_v1_0_S00_AXI is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 1340.906 ; gain = 607.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1340.906 ; gain = 607.688
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1340.906 ; gain = 607.688
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1340.906 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1399.496 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.095 . Memory (MB): peak = 1401.598 ; gain = 2.102
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1401.598 ; gain = 668.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1401.598 ; gain = 668.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1401.598 ; gain = 668.379
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_write_reg' in module 'enhancedPwmAXI_slave_lite_v1_0_S00_AXI'
+INFO: [Synth 8-802] inferred FSM for state register 'state_read_reg' in module 'enhancedPwmAXI_slave_lite_v1_0_S00_AXI'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                              001 |                               00
+                   waddr |                              010 |                               10
+                   wdata |                              100 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_write_reg' using encoding 'one-hot' in module 'enhancedPwmAXI_slave_lite_v1_0_S00_AXI'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                               00 |                               00
+                   raddr |                               01 |                               10
+                   rdata |                               10 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_read_reg' using encoding 'sequential' in module 'enhancedPwmAXI_slave_lite_v1_0_S00_AXI'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 1401.598 ; gain = 668.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    8 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 3     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 3     
+	   4 Input   32 Bit        Muxes := 4     
+	   4 Input    8 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 5     
+	   3 Input    3 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 5     
+	   3 Input    2 Bit        Muxes := 2     
+	   4 Input    1 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 2     
+	   3 Input    1 Bit        Muxes := 12    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port s00_axi_awprot[2] in module ZynqQWithPwm_enhancedPwmAXI_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awprot[1] in module ZynqQWithPwm_enhancedPwmAXI_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awprot[0] in module ZynqQWithPwm_enhancedPwmAXI_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_arprot[2] in module ZynqQWithPwm_enhancedPwmAXI_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_arprot[1] in module ZynqQWithPwm_enhancedPwmAXI_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_arprot[0] in module ZynqQWithPwm_enhancedPwmAXI_0_0 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:29 . Memory (MB): peak = 1403.668 ; gain = 670.449
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 1543.414 ; gain = 810.195
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 1543.637 ; gain = 810.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 1553.691 ; gain = 820.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:39 ; elapsed = 00:00:43 . Memory (MB): peak = 1787.562 ; gain = 1054.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:39 ; elapsed = 00:00:43 . Memory (MB): peak = 1787.562 ; gain = 1054.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:39 ; elapsed = 00:00:43 . Memory (MB): peak = 1787.562 ; gain = 1054.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:39 ; elapsed = 00:00:43 . Memory (MB): peak = 1787.562 ; gain = 1054.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:39 ; elapsed = 00:00:43 . Memory (MB): peak = 1787.562 ; gain = 1054.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:39 ; elapsed = 00:00:43 . Memory (MB): peak = 1787.562 ; gain = 1054.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |     2|
+|2     |LUT1   |     3|
+|3     |LUT2   |     3|
+|4     |LUT3   |     3|
+|5     |LUT4   |    11|
+|6     |LUT5   |    28|
+|7     |LUT6   |    35|
+|8     |FDRE   |   126|
+|9     |FDSE   |     1|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:39 ; elapsed = 00:00:43 . Memory (MB): peak = 1787.562 ; gain = 1054.344
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 7 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:25 ; elapsed = 00:00:41 . Memory (MB): peak = 1787.562 ; gain = 993.652
+Synthesis Optimization Complete : Time (s): cpu = 00:00:39 ; elapsed = 00:00:44 . Memory (MB): peak = 1787.562 ; gain = 1054.344
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1796.699 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1800.363 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: a2184337
+INFO: [Common 17-83] Releasing license: Synthesis
+43 Infos, 14 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:44 ; elapsed = 00:00:51 . Memory (MB): peak = 1800.363 ; gain = 1268.641
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1800.363 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/EENG 484/ZynqWithPwm/ZynqWithPwm.runs/ZynqQWithPwm_enhancedPwmAXI_0_0_synth_1/ZynqQWithPwm_enhancedPwmAXI_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP ZynqQWithPwm_enhancedPwmAXI_0_0, cache-ID = 28921b66dcb0c04b
+INFO: [Coretcl 2-1174] Renamed 5 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1800.363 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/EENG 484/ZynqWithPwm/ZynqWithPwm.runs/ZynqQWithPwm_enhancedPwmAXI_0_0_synth_1/ZynqQWithPwm_enhancedPwmAXI_0_0.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file ZynqQWithPwm_enhancedPwmAXI_0_0_utilization_synth.rpt -pb ZynqQWithPwm_enhancedPwmAXI_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 19 14:26:05 2025...

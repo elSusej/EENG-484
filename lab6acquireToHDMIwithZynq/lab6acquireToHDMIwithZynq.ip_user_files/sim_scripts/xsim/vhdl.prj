@@ -1,0 +1,38 @@
+vhdl xpm  \
+"C:/Xilinx/2025.1/Vivado/data/ip/xpm/xpm_VCOMP.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/ipshared/870b/hdl/enhancedPwmAXI_slave_lite_v1_0_S00_AXI.vhd" \
+"../../../lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/ipshared/870b/src/basicBuildingBlocksVhdl_package.vhd" \
+"../../../lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/ipshared/870b/src/enhancedPwm.vhd" \
+"../../../lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/ipshared/870b/src/genericComparator.vhd" \
+"../../../lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/ipshared/870b/src/genericCounter.vhd" \
+"../../../lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/ipshared/870b/hdl/enhancedPwmAXI.vhd" \
+"../../../lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/ip/acquireToHDMIwithZynq_enhancedPwmAXI_0_0/sim/acquireToHDMIwithZynq_enhancedPwmAXI_0_0.vhd" \
+"../../../lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/ipshared/0a01/hdl/acquireToDisplay_AXI_slave_lite_v1_0_S00_AXI.vhd" \
+"../../../lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/ipshared/0a01/src/scopeToHdmi_package.vhd" \
+"../../../lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/ipshared/0a01/src/acquireToHDMI_package.vhd" \
+"../../../lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/ipshared/0a01/src/acquireToHDMI.vhd" \
+"../../../lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/ipshared/0a01/src/acquireToHDMI_datapath.vhdl" \
+"../../../lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/ipshared/0a01/src/acquireToHDMI_fsm.vhdl" \
+"../../../lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/ipshared/0a01/src/dataToPixel.vhd" \
+"../../../lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/ipshared/0a01/src/flagRegister.vhdl" \
+"../../../lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/ipshared/0a01/src/genericMux4x1.vhd" \
+"../../../lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/ipshared/0a01/src/genericRegister.vhd" \
+"../../../lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/ipshared/0a01/src/scopeFace.vhd" \
+"../../../lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/ipshared/0a01/src/videoSignalGenerator.vhdl" \
+"../../../lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/ipshared/0a01/hdl/acquireToDisplay_AXI.vhd" \
+"../../../lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/ip/acquireToHDMIwithZynq_acquireToDisplay_AXI_0_0/sim/acquireToHDMIwithZynq_acquireToDisplay_AXI_0_0.vhd" \
+
+vhdl proc_sys_reset_v5_0_17  \
+"../../../lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/ipshared/9438/hdl/proc_sys_reset_v5_0_vh_rfs.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/ip/acquireToHDMIwithZynq_axi_smc_0/bd_0/ip/ip_1/sim/bd_6da4_psr_aclk_0.vhd" \
+"../../../lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/ip/acquireToHDMIwithZynq_rst_ps7_0_50M_0/sim/acquireToHDMIwithZynq_rst_ps7_0_50M_0.vhd" \
+"../../../lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/ip/acquireToHDMIwithZynq_enhancedPwmAXI_1_0/sim/acquireToHDMIwithZynq_enhancedPwmAXI_1_0.vhd" \
+"../../../lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/sim/acquireToHDMIwithZynq.vhd" \
+"../../../lab6acquireToHDMIwithZynq.gen/sources_1/bd/acquireToHDMIwithZynq/hdl/acquireToHDMIwithZynq_wrapper.vhd" \
+
+# Do not sort compile order
+nosort

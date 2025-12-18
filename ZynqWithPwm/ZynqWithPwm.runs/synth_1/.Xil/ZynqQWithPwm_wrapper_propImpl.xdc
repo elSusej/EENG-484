@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:{C:/EENG 484/ZynqWithPwm/ZynqWithPwm.srcs/constrs_1/new/ZynqWithPwm.xdc} rfile:../../../ZynqWithPwm.srcs/constrs_1/new/ZynqWithPwm.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN F17 [get_ports pwmSignal_ext_0]
+set_property src_info {type:XDC file:1 line:4 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN R17 [get_ports enb_ext_0]
