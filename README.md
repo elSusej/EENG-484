@@ -9,6 +9,9 @@ Top-level folders (major labs)
 - lab3signalAcquire/ — Signal acquisition lab (datapath + FSM + testbench)
 - lab4acquireToDisplay/ — Acquire-to-Display (HDMI pipeline) for hardware
 - lab4acquireToDisplay - Simulation Edit/ — Simulation-focused variant of Lab 4 (small button/process change so the testbench can drive the top-level entity)
+- lab6/ — Acquire-to-Display software control (XSA generation for ARM Cortex-A9 control of modified Lab 4 hardware)
+- ZynqWIthPwm/ — Software-controlled enhanced PWM (Zynq implementation of Lab 1 PWM)
+- Vitis Workspace/ — Software applications and platforms for controlling FPGA hardware via ARM processor
 - Libraries/ — Shared VHDL packages and components used across labs
 
 Which folder should I use?
@@ -24,4 +27,4 @@ If you'd like, I can:
 - Expand individual lab READMEs with step-by-step simulation or synthesis instructions.
 - Add a short "how to run simulation" section in each lab folder tailored to Vivado on Windows.
 
-(Generated/updated on 2025-11-11)
+(Generated/updated on 2025-12-17)
